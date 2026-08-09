@@ -1,0 +1,6 @@
+@PGManagementSystem.Domain_HostAddress = http://localhost:5185
+
+GET {{PGManagementSystem.Domain_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

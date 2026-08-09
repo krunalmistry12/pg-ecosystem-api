@@ -1,0 +1,242 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using PGManagementSystem.Application.DTOs.Rent;
+using PGManagementSystem.Application.Interfaces;
+using PGManagementSystem.Domain;
+using PGManagementSystem.Domain.Entities;
+using PGManagementSystem.Domain.Enums;
+
+namespace PGManagementSystem.Application.Services
+{
+    public class RentService : IRentService
+    {
+        private readonly IRentRepository _rentRepository;
+        private readonly ITenantRepository _tenantRepository;
+
+        public RentService(IRentRepository rentRepository, ITenantRepository tenantRepository)
+        {
+            _rentRepository = rentRepository;
+            _tenantRepository = tenantRepository;
+        }
+
+        // 1. GENERATE RENT BILL
+        public async Task<RentBillResponseDto> GenerateRentBillAsync(GenerateRentBillDto dto)
+        {
+            var tenant = await _tenantRepository.GetByIdAsync(dto.TenantId)
+                ?? throw new KeyNotFoundException($"Tenant with ID {dto.TenantId} not found!");
+
+            var existingRent = await _rentRepository.GetRentByTenantAndMonthAsync(dto.TenantId, dto.Month, dto.Year);
+            if (existingRent != null)
+                throw new InvalidOperationException($"Rent bill already generated for month {dto.Month}/{dto.Year}");
+
+            double? startReading = tenant.StartingMeterReading;
+            double? endReading = (double)dto.EndingMeterReading;
+
+            if (startReading.HasValue && endReading.HasValue && endReading.Value < startReading.Value)
+            {
+                throw new InvalidOperationException($"Ending meter reading ({endReading.Value}) cannot be less than starting meter reading ({startReading.Value}).");
+            }
+
+            double? unitsConsumed = (endReading.HasValue && startReading.HasValue)
+                ? Math.Max(0, endReading.Value - startReading.Value)
+                : 0;
+
+            decimal electricityBill = (decimal)(unitsConsumed ?? 0) * dto.RatePerUnit;
+
+            int daysInMonth = DateTime.DaysInMonth(dto.Year, dto.Month);
+            int validDueDateDay = Math.Min(tenant.DueDate, daysInMonth);
+            DateTime dueDate = new DateTime(dto.Year, dto.Month, validDueDateDay, 23, 59, 59, DateTimeKind.Unspecified);
+
+            var rentBill = new RentMaster
+            {
+                InvoiceNumber = $"INV-{dto.Year}{dto.Month:D2}-{tenant.Id}",
+                TenantId = tenant.Id,
+                FlatId = tenant.FlatId,
+                RoomId = tenant.RoomId,
+                BedId = tenant.BedId,
+                BillingMonth = dto.Month,
+                BillingYear = dto.Year,
+                BaseRent = tenant.Rent,
+                StartingMeterReading = startReading,
+                EndingMeterReading = endReading,
+                UnitsConsumed = unitsConsumed,
+                ElectricityBill = electricityBill,
+                ExtraCharges = dto.ExtraCharges,
+                Discount = dto.Discount,
+                DueDate = dueDate,
+                Status = enumPaymentStatus.PENDING,
+                CreatedAt = Global.GetIST()
+            };
+
+            await _rentRepository.AddRentAsync(rentBill);
+
+            if (endReading.HasValue)
+            {
+                tenant.StartingMeterReading = endReading.Value;
+                _tenantRepository.Update(tenant);
+            }
+
+            await _rentRepository.SaveChangesAsync();
+
+            return MapToDto(rentBill, tenant.Name, tenant.Phone);
+        }
+
+        // 2. RECORD PAYMENT
+        public async Task<PaymentReceiptResponseDto> RecordPaymentAsync(RecordPaymentDto dto)
+        {
+            if (dto.AmountPaid <= 0)
+                throw new ArgumentException("Payment amount must be greater than zero.");
+
+            var rent = await _rentRepository.GetByIdAsync(dto.RentId)
+                ?? throw new KeyNotFoundException($"Rent record with ID {dto.RentId} not found!");
+
+            if (rent.Status == enumPaymentStatus.PAID)
+                throw new InvalidOperationException("This rent bill is already fully paid.");
+
+            if (dto.AmountPaid > rent.PendingAmount)
+                throw new InvalidOperationException($"Payment amount (₹{dto.AmountPaid}) exceeds pending bill amount (₹{rent.PendingAmount}).");
+
+            if (!Enum.TryParse<enumPaymentMode>(dto.PaymentMode, true, out var parsedPaymentMode))
+            {
+                parsedPaymentMode = enumPaymentMode.UPI;
+            }
+
+            string receiptNo = $"RCP-{Global.GetIST():yyyyMMdd}-{Guid.NewGuid().ToString()[..5].ToUpper()}";
+
+            var payment = new RentPaymentHistory
+            {
+                RentId = dto.RentId,
+                ReceiptNumber = receiptNo,
+                AmountPaid = dto.AmountPaid,
+                PaymentDate = Global.GetIST(),
+                PaymentMode = parsedPaymentMode,
+                TransactionId = dto.TransactionId,
+                PaymentStatus = "SUCCESS",
+                Remarks = dto.Remarks,
+                CreatedAt = Global.GetIST()
+            };
+
+            await _rentRepository.AddPaymentHistoryAsync(payment);
+
+            rent.PaidAmount += dto.AmountPaid;
+            rent.UpdatedAt = Global.GetIST();
+
+            if (rent.PaidAmount >= rent.TotalAmount)
+                rent.Status = enumPaymentStatus.PAID;
+            else if (rent.PaidAmount > 0)
+                rent.Status = enumPaymentStatus.PARTIAL;
+
+            await _rentRepository.SaveChangesAsync();
+
+            return new PaymentReceiptResponseDto
+            {
+                ReceiptNumber = payment.ReceiptNumber,
+                RentId = rent.Id,
+                InvoiceNumber = rent.InvoiceNumber,
+                AmountPaid = payment.AmountPaid,
+                RemainingPendingAmount = rent.PendingAmount,
+                PaymentDate = payment.PaymentDate,
+                PaymentMode = payment.PaymentMode.ToString(),
+                TransactionId = payment.TransactionId,
+                Status = rent.Status.ToString()
+            };
+        }
+
+        // -------------------------------------------------------------
+        // 👈 PG OWNER / ADMIN SERVICES
+        // -------------------------------------------------------------
+        public async Task<List<RentBillResponseDto>> GetPendingRentBillsAsync()
+        {
+            var pendingRents = await _rentRepository.GetPendingBillsAsync();
+            return pendingRents.Select(r => MapToDto(r, r.Tenant?.Name ?? "N/A", r.Tenant?.Phone ?? "N/A")).ToList();
+        }
+
+        public async Task<List<RentPaymentHistory>> GetPaymentHistoryByRentIdAsync(long rentId)
+        {
+            return await _rentRepository.GetPaymentHistoryByRentIdAsync(rentId);
+        }
+
+        // Owner Dashboard: All Tenants Rent Records with Search & Filter
+        public async Task<List<RentBillResponseDto>> GetAllRentRecordsForAdminAsync(
+            Guid ownerId,
+            int? month = null,
+            int? year = null,
+            string? status = null,
+            string? search = null)
+        {
+            var rents = await _rentRepository.GetRentsByOwnerIdAsync(ownerId);
+
+            if (month.HasValue && month.Value > 0)
+                rents = rents.Where(r => r.BillingMonth == month.Value).ToList();
+
+            if (year.HasValue && year.Value > 0)
+                rents = rents.Where(r => r.BillingYear == year.Value).ToList();
+
+            if (!string.IsNullOrWhiteSpace(status) && Enum.TryParse<enumPaymentStatus>(status, true, out var parsedStatus))
+                rents = rents.Where(r => r.Status == parsedStatus).ToList();
+
+            if (!string.IsNullOrWhiteSpace(search))
+            {
+                string query = search.Trim().ToLower();
+                rents = rents.Where(r =>
+                    (r.Tenant != null && r.Tenant.Name.ToLower().Contains(query)) ||
+                    (r.Tenant != null && r.Tenant.Phone.Contains(query)) ||
+                    (r.InvoiceNumber != null && r.InvoiceNumber.ToLower().Contains(query))
+                ).ToList();
+            }
+
+            return rents.Select(r => MapToDto(r, r.Tenant?.Name ?? "N/A", r.Tenant?.Phone ?? "N/A")).ToList();
+        }
+
+        // -------------------------------------------------------------
+        // 👈 TENANT SERVICES
+        // -------------------------------------------------------------
+        public async Task<List<RentBillResponseDto>> GetPendingBillsByTenantIdAsync(long tenantId)
+        {
+            var pendingRents = await _rentRepository.GetPendingBillsByTenantIdAsync(tenantId);
+            return pendingRents.Select(r => MapToDto(r, r.Tenant?.Name ?? "N/A", r.Tenant?.Phone ?? "N/A")).ToList();
+        }
+
+        // Tenant Dashboard: Tenant's Complete Bills List
+        public async Task<List<RentBillResponseDto>> GetAllRentsByTenantIdAsync(long tenantId)
+        {
+            var allRents = await _rentRepository.GetAllRentsByTenantIdAsync(tenantId);
+            return allRents.Select(r => MapToDto(r, r.Tenant?.Name ?? "N/A", r.Tenant?.Phone ?? "N/A")).ToList();
+        }
+
+        public async Task<List<RentPaymentHistory>> GetPaymentHistoryByTenantIdAsync(long tenantId)
+        {
+            return await _rentRepository.GetPaymentHistoryByTenantIdAsync(tenantId);
+        }
+
+        // PRIVATE MAPPER
+        private static RentBillResponseDto MapToDto(RentMaster r, string name, string phone) => new()
+        {
+            RentId = r.Id,
+            InvoiceNumber = r.InvoiceNumber,
+            TenantId = r.TenantId,
+            TenantName = name,
+            TenantPhone = phone,
+            BillingMonth = r.BillingMonth,
+            BillingYear = r.BillingYear,
+            BaseRent = r.BaseRent,
+            ElectricityDetails = new ElectricityBreakdownDto
+            {
+                StartingMeterReading = r.StartingMeterReading ?? 0,
+                EndingMeterReading = r.EndingMeterReading ?? 0,
+                UnitsConsumed = r.UnitsConsumed ?? 0,
+                TotalElectricityBill = r.ElectricityBill
+            },
+            ExtraCharges = r.ExtraCharges,
+            LateFee = r.LateFee,
+            Discount = r.Discount,
+            TotalAmount = r.TotalAmount,
+            PaidAmount = r.PaidAmount,
+            PendingAmount = r.PendingAmount,
+            Status = r.Status.ToString(),
+            DueDate = r.DueDate
+        };
+    }
+}

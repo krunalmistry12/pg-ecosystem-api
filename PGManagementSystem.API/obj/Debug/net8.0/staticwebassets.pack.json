@@ -1,0 +1,113 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\wwwroot\\uploads\\id-proofs\\038d7056-442c-4a69-af13-a7f00cb201a4_IMG_1506.HEIC",
+      "PackagePath": "staticwebassets\\uploads\\id-proofs\\038d7056-442c-4a69-af13-a7f00cb201a4_IMG_1506.HEIC"
+    },
+    {
+      "Id": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\wwwroot\\uploads\\id-proofs\\0a53c315-9be1-4544-ab37-d8ff35dd06f5_IMG_1507.HEIC",
+      "PackagePath": "staticwebassets\\uploads\\id-proofs\\0a53c315-9be1-4544-ab37-d8ff35dd06f5_IMG_1507.HEIC"
+    },
+    {
+      "Id": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\wwwroot\\uploads\\id-proofs\\150514ec-797a-4e22-b350-29b746653f76_ID_Proof_Image.jpg",
+      "PackagePath": "staticwebassets\\uploads\\id-proofs\\150514ec-797a-4e22-b350-29b746653f76_ID_Proof_Image.jpg"
+    },
+    {
+      "Id": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\wwwroot\\uploads\\id-proofs\\1a3736b2-f5a9-4ef3-b6ed-7b01510ffcf3_IMG_1507.HEIC",
+      "PackagePath": "staticwebassets\\uploads\\id-proofs\\1a3736b2-f5a9-4ef3-b6ed-7b01510ffcf3_IMG_1507.HEIC"
+    },
+    {
+      "Id": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\wwwroot\\uploads\\id-proofs\\6ad0fa42-9a38-41cd-a943-dc2d860e1471_IMG_1507.HEIC",
+      "PackagePath": "staticwebassets\\uploads\\id-proofs\\6ad0fa42-9a38-41cd-a943-dc2d860e1471_IMG_1507.HEIC"
+    },
+    {
+      "Id": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\wwwroot\\uploads\\id-proofs\\73d818ec-c5dc-4394-995c-55ecb41bdd72_IMG_1507.HEIC",
+      "PackagePath": "staticwebassets\\uploads\\id-proofs\\73d818ec-c5dc-4394-995c-55ecb41bdd72_IMG_1507.HEIC"
+    },
+    {
+      "Id": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\wwwroot\\uploads\\id-proofs\\96677ed0-aa3e-4a82-8f70-141173c4add2_IMG_1507.HEIC",
+      "PackagePath": "staticwebassets\\uploads\\id-proofs\\96677ed0-aa3e-4a82-8f70-141173c4add2_IMG_1507.HEIC"
+    },
+    {
+      "Id": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\wwwroot\\uploads\\id-proofs\\9b079e39-eb16-4639-9a83-7695ed132067_ID_Proof_Image.jpg",
+      "PackagePath": "staticwebassets\\uploads\\id-proofs\\9b079e39-eb16-4639-9a83-7695ed132067_ID_Proof_Image.jpg"
+    },
+    {
+      "Id": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\wwwroot\\uploads\\id-proofs\\ec3f39f9-85bb-421c-b0f7-851c09e35d0c_IMG_1507.HEIC",
+      "PackagePath": "staticwebassets\\uploads\\id-proofs\\ec3f39f9-85bb-421c-b0f7-851c09e35d0c_IMG_1507.HEIC"
+    },
+    {
+      "Id": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\wwwroot\\uploads\\id-proofs\\ecca9f7a-a41b-47c9-9d6d-8a2e8b7937c5_KrunalResume26.pdf",
+      "PackagePath": "staticwebassets\\uploads\\id-proofs\\ecca9f7a-a41b-47c9-9d6d-8a2e8b7937c5_KrunalResume26.pdf"
+    },
+    {
+      "Id": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\wwwroot\\uploads\\id-proofs\\ee91bc2a-7e9f-42e5-b077-3c73f11b711f_ID_Proof_Image.jpg",
+      "PackagePath": "staticwebassets\\uploads\\id-proofs\\ee91bc2a-7e9f-42e5-b077-3c73f11b711f_ID_Proof_Image.jpg"
+    },
+    {
+      "Id": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\wwwroot\\uploads\\photos\\014a033c-81cf-48b3-9c8c-d60fa74ed928_IMG_1508.HEIC",
+      "PackagePath": "staticwebassets\\uploads\\photos\\014a033c-81cf-48b3-9c8c-d60fa74ed928_IMG_1508.HEIC"
+    },
+    {
+      "Id": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\wwwroot\\uploads\\photos\\157a16f5-8911-4b3e-8e49-31a08a33c560_IMG_1507.HEIC",
+      "PackagePath": "staticwebassets\\uploads\\photos\\157a16f5-8911-4b3e-8e49-31a08a33c560_IMG_1507.HEIC"
+    },
+    {
+      "Id": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\wwwroot\\uploads\\photos\\35aed2b8-b233-4ca7-9b21-74b357a321f5_Tenant_Photo.jpg",
+      "PackagePath": "staticwebassets\\uploads\\photos\\35aed2b8-b233-4ca7-9b21-74b357a321f5_Tenant_Photo.jpg"
+    },
+    {
+      "Id": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\wwwroot\\uploads\\photos\\5c933d61-233c-4d6b-ae90-7073b47bfa47_IMG_1508.HEIC",
+      "PackagePath": "staticwebassets\\uploads\\photos\\5c933d61-233c-4d6b-ae90-7073b47bfa47_IMG_1508.HEIC"
+    },
+    {
+      "Id": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\wwwroot\\uploads\\photos\\63ffd28a-bf90-4a43-877b-080ff9db40e0_IMG_1507.HEIC",
+      "PackagePath": "staticwebassets\\uploads\\photos\\63ffd28a-bf90-4a43-877b-080ff9db40e0_IMG_1507.HEIC"
+    },
+    {
+      "Id": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\wwwroot\\uploads\\photos\\6c582308-1015-46b9-96e5-da2991dfad18_IMG_1508.HEIC",
+      "PackagePath": "staticwebassets\\uploads\\photos\\6c582308-1015-46b9-96e5-da2991dfad18_IMG_1508.HEIC"
+    },
+    {
+      "Id": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\wwwroot\\uploads\\photos\\83174a71-24ab-4d62-bdc2-21b511675a6f_Tenant_Photo.jpg",
+      "PackagePath": "staticwebassets\\uploads\\photos\\83174a71-24ab-4d62-bdc2-21b511675a6f_Tenant_Photo.jpg"
+    },
+    {
+      "Id": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\wwwroot\\uploads\\photos\\c4310f82-c691-4fce-bf03-8d31c94c6fd4_IMG_1508.HEIC",
+      "PackagePath": "staticwebassets\\uploads\\photos\\c4310f82-c691-4fce-bf03-8d31c94c6fd4_IMG_1508.HEIC"
+    },
+    {
+      "Id": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\wwwroot\\uploads\\photos\\cc90fae5-d878-4eee-a18d-978e024435c0_Tenant_Photo.jpg",
+      "PackagePath": "staticwebassets\\uploads\\photos\\cc90fae5-d878-4eee-a18d-978e024435c0_Tenant_Photo.jpg"
+    },
+    {
+      "Id": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\wwwroot\\uploads\\photos\\d0b7719e-2b41-4f0a-9c58-8b2607c26e96_IMG_1507.HEIC",
+      "PackagePath": "staticwebassets\\uploads\\photos\\d0b7719e-2b41-4f0a-9c58-8b2607c26e96_IMG_1507.HEIC"
+    },
+    {
+      "Id": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\wwwroot\\uploads\\photos\\e7e96deb-20bc-4280-a88d-f25c6f62098b_Tenant_Photo.jpg",
+      "PackagePath": "staticwebassets\\uploads\\photos\\e7e96deb-20bc-4280-a88d-f25c6f62098b_Tenant_Photo.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PGManagementSystem.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PGManagementSystem.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PGManagementSystem.API.props",
+      "PackagePath": "build\\PGManagementSystem.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PGManagementSystem.API.props",
+      "PackagePath": "buildMultiTargeting\\PGManagementSystem.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PGManagementSystem.API.props",
+      "PackagePath": "buildTransitive\\PGManagementSystem.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

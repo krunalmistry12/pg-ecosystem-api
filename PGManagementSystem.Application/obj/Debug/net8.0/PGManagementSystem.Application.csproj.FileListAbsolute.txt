@@ -1,0 +1,15 @@
+D:\Dotnet\PGManagementSystem\PGManagementSystem.Application\bin\Debug\net8.0\PGManagementSystem.Application.deps.json
+D:\Dotnet\PGManagementSystem\PGManagementSystem.Application\bin\Debug\net8.0\PGManagementSystem.Application.dll
+D:\Dotnet\PGManagementSystem\PGManagementSystem.Application\bin\Debug\net8.0\PGManagementSystem.Application.pdb
+D:\Dotnet\PGManagementSystem\PGManagementSystem.Application\bin\Debug\net8.0\PGManagementSystem.Domain.dll
+D:\Dotnet\PGManagementSystem\PGManagementSystem.Application\bin\Debug\net8.0\PGManagementSystem.Domain.pdb
+D:\Dotnet\PGManagementSystem\PGManagementSystem.Application\obj\Debug\net8.0\PGManagementSystem.Application.csproj.AssemblyReference.cache
+D:\Dotnet\PGManagementSystem\PGManagementSystem.Application\obj\Debug\net8.0\PGManagementSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet\PGManagementSystem\PGManagementSystem.Application\obj\Debug\net8.0\PGManagementSystem.Application.AssemblyInfoInputs.cache
+D:\Dotnet\PGManagementSystem\PGManagementSystem.Application\obj\Debug\net8.0\PGManagementSystem.Application.AssemblyInfo.cs
+D:\Dotnet\PGManagementSystem\PGManagementSystem.Application\obj\Debug\net8.0\PGManagementSystem.Application.csproj.CoreCompileInputs.cache
+D:\Dotnet\PGManagementSystem\PGManagementSystem.Application\obj\Debug\net8.0\PGManage.7B5F6646.Up2Date
+D:\Dotnet\PGManagementSystem\PGManagementSystem.Application\obj\Debug\net8.0\PGManagementSystem.Application.dll
+D:\Dotnet\PGManagementSystem\PGManagementSystem.Application\obj\Debug\net8.0\refint\PGManagementSystem.Application.dll
+D:\Dotnet\PGManagementSystem\PGManagementSystem.Application\obj\Debug\net8.0\PGManagementSystem.Application.pdb
+D:\Dotnet\PGManagementSystem\PGManagementSystem.Application\obj\Debug\net8.0\ref\PGManagementSystem.Application.dll
