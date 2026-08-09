@@ -10,22 +10,22 @@ using Microsoft.OpenApi.Models;
 using System.Text.Json.Serialization;
 using PGManagementSystem.Infrastructure.Services;
 
-// WebApplicationOptions ke sath builder banayein
-var options = new WebApplicationOptions
+// 1. WebApplicationBuilder ko configure karne ke liye Host options use karein
+var builder = WebApplication.CreateBuilder(new WebApplicationOptions
 {
-    Args = args
-};
+    Args = args,
+    WebRootPath = "wwwroot"
+});
 
-var builder = WebApplication.CreateBuilder(options);
-
-// 1. Clear default sources to prevent inotify limit exception on Linux containers
+// 2. Inotify limit error rokne ke liye saari configuration sources clear karein
 builder.Configuration.Sources.Clear();
 
-// 2. Explicitly add config files with reloadOnChange: false
+// 3. Explicitly bina reload ke config files add karein
 builder.Configuration
     .AddJsonFile("appsettings.json", optional: false, reloadOnChange: false)
     .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true, reloadOnChange: false)
     .AddEnvironmentVariables();
+
 // 1. Add CORS
 builder.Services.AddCors(options =>
 {
@@ -78,18 +78,24 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
-// 4. MySQL Database Context
+// 4. MySQL Database Context with Resiliency for Aiven Cloud
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(
         builder.Configuration.GetConnectionString("DefaultConnection"),
-        new MySqlServerVersion(new Version(8, 0, 41))
+        new MySqlServerVersion(new Version(8, 0, 41)),
+        mySqlOptions =>
+        {
+            mySqlOptions.EnableRetryOnFailure(
+                maxRetryCount: 5,
+                maxRetryDelay: TimeSpan.FromSeconds(30),
+                errorNumbersToAdd: null
+            );
+        }
     ));
 
-// Host URLs
-//builder.WebHost.UseUrls(
-//    "http://0.0.0.0:5264",
-//    "https://0.0.0.0:7180"
-//);
+// Render Dynamic Port Binding Support
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5264";
+builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
 
 // 5. Dependency Injection Registrations (Repositories & Services)
 builder.Services.AddScoped<IUserRepository, UserRepository>();
@@ -114,7 +120,7 @@ builder.Services.AddScoped<IFlatService, FlatService>();
 builder.Services.AddScoped<IDashboardRepository, DashboardRepository>();
 builder.Services.AddScoped<IDashboardService, DashboardService>();
 
-// ?? Rent Module Registrations (MISSING THA - AB ADD KAR DIYA HAI)
+// Rent Module Registrations
 builder.Services.AddScoped<IRentRepository, RentRepository>();
 builder.Services.AddScoped<IRentService, RentService>();
 
@@ -161,7 +167,7 @@ app.UseSwaggerUI(c =>
     c.RoutePrefix = string.Empty; // Yeh line lagane se direct base URL par hi Swagger khul jayega!
 });
 
-app.UseAuthentication(); // ?? Must be before UseAuthorization
+app.UseAuthentication(); // Must be before UseAuthorization
 app.UseAuthorization();
 
 app.MapControllers();
