@@ -139,11 +139,13 @@ app.UseCors("AllowAll");
 
 app.UseStaticFiles();
 
-if (app.Environment.IsDevelopment())
+// Swagger ko Production (Render) par bhi enable karne ke liye:
+app.UseSwagger();
+app.UseSwaggerUI(c =>
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "PG Management System API V1");
+    c.RoutePrefix = string.Empty; // Yeh line lagane se direct base URL par hi Swagger khul jayega!
+});
 
 app.UseAuthentication(); // ?? Must be before UseAuthorization
 app.UseAuthorization();
