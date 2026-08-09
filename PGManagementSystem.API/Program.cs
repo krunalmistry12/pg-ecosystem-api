@@ -10,21 +10,7 @@ using Microsoft.OpenApi.Models;
 using System.Text.Json.Serialization;
 using PGManagementSystem.Infrastructure.Services;
 
-// 1. WebApplicationBuilder ko configure karne ke liye Host options use karein
-var builder = WebApplication.CreateBuilder(new WebApplicationOptions
-{
-    Args = args,
-    WebRootPath = "wwwroot"
-});
-
-// 2. Inotify limit error rokne ke liye saari configuration sources clear karein
-builder.Configuration.Sources.Clear();
-
-// 3. Explicitly bina reload ke config files add karein
-builder.Configuration
-    .AddJsonFile("appsettings.json", optional: false, reloadOnChange: false)
-    .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true, reloadOnChange: false)
-    .AddEnvironmentVariables();
+var builder = WebApplication.CreateBuilder(args);
 
 // 1. Add CORS
 builder.Services.AddCors(options =>
@@ -142,10 +128,10 @@ builder.Services.AddAuthentication(options =>
     {
         ValidateIssuerSigningKey = true,
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSecret)),
-        ValidateIssuer = false,   // Set to false to prevent 401 due to domain mismatch in Dev
-        ValidateAudience = false, // Set to false to prevent 401 due to domain mismatch in Dev
+        ValidateIssuer = false,
+        ValidateAudience = false,
         ValidateLifetime = true,
-        ClockSkew = TimeSpan.Zero // Expired tokens instantly reject ho jayein
+        ClockSkew = TimeSpan.Zero
     };
 });
 
@@ -159,15 +145,14 @@ app.UseCors("AllowAll");
 
 app.UseStaticFiles();
 
-// Swagger ko Production (Render) par bhi enable karne ke liye:
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
     c.SwaggerEndpoint("/swagger/v1/swagger.json", "PG Management System API V1");
-    c.RoutePrefix = string.Empty; // Yeh line lagane se direct base URL par hi Swagger khul jayega!
+    c.RoutePrefix = string.Empty;
 });
 
-app.UseAuthentication(); // Must be before UseAuthorization
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
