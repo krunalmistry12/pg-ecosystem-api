@@ -6,13 +6,20 @@ public class AppDbContextFactory : IDesignTimeDbContextFactory<AppDbContext>
 {
     public AppDbContext CreateDbContext(string[] args)
     {
-        var connectionString = "server=localhost;port=3306;database=pgdb;user=root;password=root";
+        var connectionString =
+            Environment.GetEnvironmentVariable("AIVEN_MYSQL_CONNECTION");
+
+        if (string.IsNullOrWhiteSpace(connectionString))
+        {
+            throw new InvalidOperationException(
+                "AIVEN_MYSQL_CONNECTION environment variable is not set.");
+        }
 
         var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
 
         optionsBuilder.UseMySql(
             connectionString,
-            new MySqlServerVersion(new Version(8, 0, 41))
+            new MySqlServerVersion(new Version(8, 4, 0))
         );
 
         return new AppDbContext(optionsBuilder.Options);

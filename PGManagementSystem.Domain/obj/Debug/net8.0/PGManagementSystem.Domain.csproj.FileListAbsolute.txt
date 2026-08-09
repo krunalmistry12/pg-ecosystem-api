@@ -10,3 +10,16 @@ D:\Dotnet\PGManagementSystem\PGManagementSystem.Domain\obj\Debug\net8.0\PGManage
 D:\Dotnet\PGManagementSystem\PGManagementSystem.Domain\obj\Debug\net8.0\refint\PGManagementSystem.Domain.dll
 D:\Dotnet\PGManagementSystem\PGManagementSystem.Domain\obj\Debug\net8.0\PGManagementSystem.Domain.pdb
 D:\Dotnet\PGManagementSystem\PGManagementSystem.Domain\obj\Debug\net8.0\ref\PGManagementSystem.Domain.dll
+C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Domain\bin\Debug\net8.0\PGManagementSystem.Domain.deps.json
+C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Domain\bin\Debug\net8.0\PGManagementSystem.Domain.dll
+C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Domain\bin\Debug\net8.0\PGManagementSystem.Domain.pdb
+C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Domain\obj\Debug\net8.0\PGManagementSystem.Domain.csproj.AssemblyReference.cache
+C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Domain\obj\Debug\net8.0\PGManagementSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Domain\obj\Debug\net8.0\PGManagementSystem.Domain.AssemblyInfoInputs.cache
+C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Domain\obj\Debug\net8.0\PGManagementSystem.Domain.AssemblyInfo.cs
+C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Domain\obj\Debug\net8.0\PGManagementSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Domain\obj\Debug\net8.0\PGManagementSystem.Domain.sourcelink.json
+C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Domain\obj\Debug\net8.0\PGManagementSystem.Domain.dll
+C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Domain\obj\Debug\net8.0\refint\PGManagementSystem.Domain.dll
+C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Domain\obj\Debug\net8.0\PGManagementSystem.Domain.pdb
+C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Domain\obj\Debug\net8.0\ref\PGManagementSystem.Domain.dll
