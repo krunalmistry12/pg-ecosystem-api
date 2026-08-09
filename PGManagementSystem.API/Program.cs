@@ -10,18 +10,22 @@ using Microsoft.OpenApi.Models;
 using System.Text.Json.Serialization;
 using PGManagementSystem.Infrastructure.Services;
 
-var builder = WebApplication.CreateBuilder(new WebApplicationOptions
+// WebApplicationOptions ke sath builder banayein
+var options = new WebApplicationOptions
 {
-    Args = args,
-    // Environment set karne ke liye ya default lene ke liye
-});
+    Args = args
+};
 
-// Important: Yeh line ensure karegi ki inotify limit cross na ho
+var builder = WebApplication.CreateBuilder(options);
+
+// 1. Clear default sources to prevent inotify limit exception on Linux containers
 builder.Configuration.Sources.Clear();
 
-// Linux/Render container par inotify limit error ko rokne ke liye:
-builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: false);
-builder.Configuration.AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true, reloadOnChange: false);
+// 2. Explicitly add config files with reloadOnChange: false
+builder.Configuration
+    .AddJsonFile("appsettings.json", optional: false, reloadOnChange: false)
+    .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true, reloadOnChange: false)
+    .AddEnvironmentVariables();
 // 1. Add CORS
 builder.Services.AddCors(options =>
 {
