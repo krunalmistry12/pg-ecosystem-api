@@ -88,22 +88,22 @@ public class AuthController : ControllerBase
         bool isOtpSent = false;
         string selectedChannel = model.Channel?.ToLower() ?? "whatsapp"; // Default WhatsApp
 
-        switch (selectedChannel)
-        {
-            case "whatsapp":
-                isOtpSent = await _otpService.SendWhatsAppOtpAsync(model.Phone, otp);
-                break;
-            case "sms":
-                isOtpSent = await _otpService.SendSmsOtpAsync(model.Phone, otp);
-                break;
-            case "email":
-                if (!string.IsNullOrEmpty(userEmail))
-                    isOtpSent = await _otpService.SendEmailOtpAsync(userEmail, otp);
-                break;
-            default:
-                isOtpSent = await _otpService.SendWhatsAppOtpAsync(model.Phone, otp);
-                break;
-        }
+        //switch (selectedChannel)
+        //{
+        //    case "whatsapp":
+        //        isOtpSent = await _otpService.SendWhatsAppOtpAsync(model.Phone, otp);
+        //        break;
+        //    case "sms":
+        //        isOtpSent = await _otpService.SendSmsOtpAsync(model.Phone, otp);
+        //        break;
+        //    case "email":
+        //        if (!string.IsNullOrEmpty(userEmail))
+        //            isOtpSent = await _otpService.SendEmailOtpAsync(userEmail, otp);
+        //        break;
+        //    default:
+        //        isOtpSent = await _otpService.SendWhatsAppOtpAsync(model.Phone, otp);
+        //        break;
+        //}
 
         // Production Debug Output
         Debug.WriteLine($"[SEND OTP] Phone: {model.Phone} | Channel: {selectedChannel} | Generated OTP: {otp}");
