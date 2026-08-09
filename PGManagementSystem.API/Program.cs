@@ -72,10 +72,10 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     ));
 
 // Host URLs
-builder.WebHost.UseUrls(
-    "http://0.0.0.0:5264",
-    "https://0.0.0.0:7180"
-);
+//builder.WebHost.UseUrls(
+//    "http://0.0.0.0:5264",
+//    "https://0.0.0.0:7180"
+//);
 
 // 5. Dependency Injection Registrations (Repositories & Services)
 builder.Services.AddScoped<IUserRepository, UserRepository>();

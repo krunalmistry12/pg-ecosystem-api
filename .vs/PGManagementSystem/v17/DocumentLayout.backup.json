@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Dotnet\\PGManagementSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6255E43E-03A1-4B29-8DB5-64EDA641E945}|PGManagementSystem.Domain\\PGManagementSystem.Domain.csproj|d:\\dotnet\\pgmanagementsystem\\pgmanagementsystem.domain\\enums\\enumallocationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6255E43E-03A1-4B29-8DB5-64EDA641E945}|PGManagementSystem.Domain\\PGManagementSystem.Domain.csproj|solutionrelative:pgmanagementsystem.domain\\enums\\enumallocationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9324FF80-A4C2-4895-BEBB-E2EA47DACE17}|PGManagementSystem.Infrastructure\\PGManagementSystem.Infrastructure.csproj|d:\\dotnet\\pgmanagementsystem\\pgmanagementsystem.infrastructure\\repositories\\dashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9324FF80-A4C2-4895-BEBB-E2EA47DACE17}|PGManagementSystem.Infrastructure\\PGManagementSystem.Infrastructure.csproj|solutionrelative:pgmanagementsystem.infrastructure\\repositories\\dashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -171,10 +175,6 @@
       "RelativeMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|solutionrelative:pgmanagementsystem.api\\controllers\\flatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6255E43E-03A1-4B29-8DB5-64EDA641E945}|PGManagementSystem.Domain\\PGManagementSystem.Domain.csproj|d:\\dotnet\\pgmanagementsystem\\pgmanagementsystem.domain\\enums\\enumallocationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6255E43E-03A1-4B29-8DB5-64EDA641E945}|PGManagementSystem.Domain\\PGManagementSystem.Domain.csproj|solutionrelative:pgmanagementsystem.domain\\enums\\enumallocationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|d:\\dotnet\\pgmanagementsystem\\pgmanagementsystem.application\\interfaces\\itenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|solutionrelative:pgmanagementsystem.application\\interfaces\\itenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -266,24 +266,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "PGManagementSystem.API\\Controllers\\DashboardController.cs",
-              "ToolTip": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "PGManagementSystem.API\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCIAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-08T20:42:16.213Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "IDashboardService.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Application\\Services\\IDashboardService.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\Services\\IDashboardService.cs",
@@ -296,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DashboardService.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Application\\Services\\DashboardService.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\Services\\DashboardService.cs",
@@ -309,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IDashboardRepository.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Application\\Interfaces\\IDashboardRepository.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\Interfaces\\IDashboardRepository.cs",
@@ -322,20 +309,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DashboardRepository.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Infrastructure\\Repositories\\DashboardRepository.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Infrastructure\\Repositories\\DashboardRepository.cs",
               "ToolTip": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Infrastructure\\Repositories\\DashboardRepository.cs",
               "RelativeToolTip": "PGManagementSystem.Infrastructure\\Repositories\\DashboardRepository.cs",
-              "ViewState": "AgIAAJkAAAAAAAAAAAAuwK0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAuwKYAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-08T15:11:23.687Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.API\\Controllers\\AuthController.cs",
@@ -348,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\Program.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.API\\Program.cs",
@@ -361,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "RentController.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\Controllers\\RentController.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.API\\Controllers\\RentController.cs",
@@ -374,7 +361,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "enumAllocationType.cs",
+              "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Domain\\Enums\\enumAllocationType.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.Domain\\Enums\\enumAllocationType.cs",
+              "ToolTip": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Domain\\Enums\\enumAllocationType.cs",
+              "RelativeToolTip": "PGManagementSystem.Domain\\Enums\\enumAllocationType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-07T16:51:32.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.API\\Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "PGManagementSystem.API\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCIAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-08T20:42:16.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "enumPaymentStatus.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Domain\\Enums\\enumPaymentStatus.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Domain\\Enums\\enumPaymentStatus.cs",
@@ -387,7 +400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "enumTenantStatus.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Domain\\Enums\\enumTenantStatus.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Domain\\Enums\\enumTenantStatus.cs",
@@ -400,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "RentRepository.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Infrastructure\\Repositories\\RentRepository.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Infrastructure\\Repositories\\RentRepository.cs",
@@ -413,7 +426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "OtpService.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Application\\Services\\OtpService.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\Services\\OtpService.cs",
@@ -426,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "enumPaymentMode.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Domain\\Enums\\enumPaymentMode.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Domain\\Enums\\enumPaymentMode.cs",
@@ -439,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.API\\WeatherForecast.cs",
@@ -452,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\appsettings.json",
               "RelativeDocumentMoniker": "PGManagementSystem.API\\appsettings.json",
@@ -465,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AuthService.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Application\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\Services\\AuthService.cs",
@@ -478,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "RentBillResponseDto.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Application\\DTOs\\Rent\\RentBillResponseDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\Rent\\RentBillResponseDto.cs",
@@ -491,7 +504,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "RentService.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Application\\Services\\RentService.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\Services\\RentService.cs",
@@ -504,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "RecordPaymentDto.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Application\\DTOs\\Rent\\RecordPaymentDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\Rent\\RecordPaymentDto.cs",
@@ -517,7 +530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "IRentRepository.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Application\\Interfaces\\IRentRepository.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\Interfaces\\IRentRepository.cs",
@@ -530,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "IRentService.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Application\\Interfaces\\IRentService.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\Interfaces\\IRentService.cs",
@@ -543,7 +556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "GenerateRentBillDto.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Application\\DTOs\\Rent\\GenerateRentBillDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\Rent\\GenerateRentBillDto.cs",
@@ -556,7 +569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "ElectricityBreakdownDto.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Application\\DTOs\\Rent\\ElectricityBreakdownDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\Rent\\ElectricityBreakdownDto.cs",
@@ -569,7 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "TenantMaster.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Domain\\Entities\\TenantMaster.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Domain\\Entities\\TenantMaster.cs",
@@ -582,7 +595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "ITenantRepository.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Application\\Interfaces\\ITenantRepository.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\Interfaces\\ITenantRepository.cs",
@@ -595,7 +608,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "DashboardAlertDto.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Application\\DTOs\\Dashboard\\DashboardAlertDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\Dashboard\\DashboardAlertDto.cs",
@@ -607,7 +620,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.API\\Controllers\\UserController.cs",
@@ -619,7 +632,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "enumBedStatus.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Domain\\Enums\\enumBedStatus.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Domain\\Enums\\enumBedStatus.cs",
@@ -632,7 +645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Application\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\Services\\UserService.cs",
@@ -644,7 +657,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "TenantService.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Application\\Services\\TenantService.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\Services\\TenantService.cs",
@@ -656,7 +669,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "CreateUserDto.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Application\\DTOs\\CreateUserDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\CreateUserDto.cs",
@@ -668,7 +681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "RecentActivityDto.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Application\\DTOs\\Dashboard\\RecentActivityDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\Dashboard\\RecentActivityDto.cs",
@@ -680,7 +693,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "PropertyMetricsDto.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Application\\DTOs\\Dashboard\\PropertyMetricsDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\Dashboard\\PropertyMetricsDto.cs",
@@ -692,7 +705,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "RevenueOverviewDto.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Application\\DTOs\\Dashboard\\RevenueOverviewDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\Dashboard\\RevenueOverviewDto.cs",
@@ -704,7 +717,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "DashboardResponseDto.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Application\\DTOs\\Dashboard\\DashboardResponseDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\Dashboard\\DashboardResponseDto.cs",
@@ -717,18 +730,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 42,
-              "Title": "enumAllocationType.cs",
-              "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Domain\\Enums\\enumAllocationType.cs",
-              "RelativeDocumentMoniker": "PGManagementSystem.Domain\\Enums\\enumAllocationType.cs",
-              "ToolTip": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Domain\\Enums\\enumAllocationType.cs",
-              "RelativeToolTip": "PGManagementSystem.Domain\\Enums\\enumAllocationType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-07T16:51:32.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
               "Title": "FlatsController.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\Controllers\\FlatsController.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.API\\Controllers\\FlatsController.cs",
@@ -740,7 +741,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "IFlatService.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Application\\Interfaces\\IFlatService.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\Interfaces\\IFlatService.cs",
@@ -752,7 +753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "FlatService.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Application\\Services\\FlatService.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\Services\\FlatService.cs",
@@ -764,7 +765,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "TenantResponseDto.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Application\\DTOs\\TenantResponseDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\TenantResponseDto.cs",
@@ -776,7 +777,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "TenantController.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\Controllers\\TenantController.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.API\\Controllers\\TenantController.cs",
@@ -788,7 +789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "BedBreakupDto.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Application\\DTOs\\BedBreakupDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\BedBreakupDto.cs",
@@ -812,7 +813,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "FlatSummaryDto.cs",
               "DocumentMoniker": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Application\\DTOs\\FlatSummaryDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\FlatSummaryDto.cs",

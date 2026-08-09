@@ -2967,11 +2967,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\PGManagementSystem.API.csproj",
+      "projectUniqueName": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\PGManagementSystem.API.csproj",
       "projectName": "PGManagementSystem.API",
-      "projectPath": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\PGManagementSystem.API.csproj",
+      "projectPath": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\PGManagementSystem.API.csproj",
       "packagesPath": "C:\\Users\\kunal\\.nuget\\packages\\",
-      "outputPath": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.API\\obj\\",
+      "outputPath": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2992,11 +2992,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Application\\PGManagementSystem.Application.csproj": {
-              "projectPath": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Application\\PGManagementSystem.Application.csproj"
+            "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\PGManagementSystem.Application.csproj": {
+              "projectPath": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\PGManagementSystem.Application.csproj"
             },
-            "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Infrastructure\\PGManagementSystem.Infrastructure.csproj": {
-              "projectPath": "D:\\Dotnet\\PGManagementSystem\\PGManagementSystem.Infrastructure\\PGManagementSystem.Infrastructure.csproj"
+            "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Infrastructure\\PGManagementSystem.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Infrastructure\\PGManagementSystem.Infrastructure.csproj"
             }
           }
         }
