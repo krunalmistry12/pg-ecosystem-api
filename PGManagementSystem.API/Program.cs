@@ -10,12 +10,14 @@ using Microsoft.OpenApi.Models;
 using System.Text.Json.Serialization;
 using PGManagementSystem.Infrastructure.Services;
 
-var options = new WebApplicationOptions
+var builder = WebApplication.CreateBuilder(new WebApplicationOptions
 {
     Args = args,
-    // Agar environment variable set nahi hai toh production default le lega
-};
-var builder = WebApplication.CreateBuilder(options);
+    // Environment set karne ke liye ya default lene ke liye
+});
+
+// Important: Yeh line ensure karegi ki inotify limit cross na ho
+builder.Configuration.Sources.Clear();
 
 // Linux/Render container par inotify limit error ko rokne ke liye:
 builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: false);
