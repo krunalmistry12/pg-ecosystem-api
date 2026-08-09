@@ -336,7 +336,7 @@
               "RelativeDocumentMoniker": "PGManagementSystem.API\\Program.cs",
               "ToolTip": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Program.cs",
               "RelativeToolTip": "PGManagementSystem.API\\Program.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAuwEgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-08T19:54:31.829Z",
               "EditorCaption": ""
@@ -363,8 +363,7 @@
               "RelativeToolTip": "PGManagementSystem.Domain\\Enums\\enumAllocationType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-07T16:51:32.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-07T16:51:32.985Z"
             },
             {
               "$type": "Document",

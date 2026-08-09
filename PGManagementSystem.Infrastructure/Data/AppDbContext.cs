@@ -22,6 +22,7 @@ public class AppDbContext : DbContext
     public DbSet<TenantMaster> TenantMasters { get; set; } = null!;
     public DbSet<RentMaster> RentMasters { get; set; } = null!;
     public DbSet<RentPaymentHistory> RentPaymentHistories { get; set; } = null!;
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
@@ -114,7 +115,7 @@ public class AppDbContext : DbContext
             .OnDelete(DeleteBehavior.Cascade);
 
         // ==========================================
-        // 4. DEFAULT SEED DATA (Default Roles)
+        // 4. DEFAULT SEED DATA & CONFIGURATIONS
         // ==========================================
         modelBuilder.Entity<RoleMaster>().HasData(
             new RoleMaster
@@ -150,5 +151,25 @@ public class AppDbContext : DbContext
                 CreatedAt = new DateTime(2026, 1, 1, 0, 0, 0, DateTimeKind.Utc)
             }
         );
+
+        // Default SuperAdmin User Seed
+        modelBuilder.Entity<UserMaster>().HasData(
+            new UserMaster
+            {
+                UserId = Guid.Parse("5639d859-f1b8-4a90-bb07-0279f38a580c"),
+                FullName = "kunal",
+                Email = "patelkrishana006@gmail.com",
+                Phone = "6352282175",
+                PasswordHash = "$2a$11$qBD0lwESQosX0HyV6demwuCbdW1VynMab.SswDPG9nvUOYCJoYGOu",
+                RoleId = 1,
+                IsActive = true,
+                CreatedAt = new DateTime(2026, 8, 5, 17, 55, 4, 367, DateTimeKind.Utc)
+            }
+        );
+
+        // Primary Key Guid field configuration
+        modelBuilder.Entity<UserMaster>()
+            .Property(u => u.UserId)
+            .ValueGeneratedNever();
     }
 }
