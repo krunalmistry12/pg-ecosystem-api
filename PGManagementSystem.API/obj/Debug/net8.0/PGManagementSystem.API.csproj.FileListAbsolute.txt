@@ -258,3 +258,4 @@ C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.
 C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.API\obj\Debug\net8.0\PGManagementSystem.API.pdb
 C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.API\obj\Debug\net8.0\PGManagementSystem.API.genruntimeconfig.cache
 C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.API\obj\Debug\net8.0\ref\PGManagementSystem.API.dll
+C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
