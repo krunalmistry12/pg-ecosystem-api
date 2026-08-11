@@ -89,7 +89,7 @@ namespace PGManagementSystem.Infrastructure.Repositories
                 .Where(r => flatsQuery.Any(f => f.FlatId == r.FlatId) &&
                             r.BillingMonth == targetMonth &&
                             r.BillingYear == targetYear &&
-                            (r.Status == enumPaymentStatus.PAID || (int)r.Status == 1))
+                            (r.Status == enumPaymentStatus.PAID || (int)r.Status == 1) || (int)r.Status == 3)
                 .SumAsync(r => (decimal?)r.PaidAmount) ?? 0;
 
             decimal totalPendingDue = totalExpected > totalCollected ? totalExpected - totalCollected : 0;

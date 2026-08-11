@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PGManagementSystem.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80f6fd56d8493a1e677a0d9a6960e1839fefe753")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+237bae1311e68b9bbfb8f7287f943dc734c971dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("PGManagementSystem.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PGManagementSystem.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

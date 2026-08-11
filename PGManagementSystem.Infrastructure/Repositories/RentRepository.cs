@@ -103,6 +103,7 @@ public class RentRepository : IRentRepository
         return await _context.RentMasters
             .Include(r => r.Tenant)
                 .ThenInclude(t => t.Flat)
+                .Include(r => r.PaymentHistories)
             .AsNoTracking()
             .Where(r => r.Tenant != null && r.Tenant.Flat != null && r.Tenant.Flat.UserId == ownerId)
             .OrderByDescending(r => r.BillingYear)

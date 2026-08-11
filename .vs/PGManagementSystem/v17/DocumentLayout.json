@@ -3,44 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.api\\controllers\\rentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|solutionrelative:pgmanagementsystem.api\\controllers\\rentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|solutionrelative:pgmanagementsystem.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.api\\controllers\\tenantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|solutionrelative:pgmanagementsystem.api\\controllers\\tenantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|solutionrelative:pgmanagementsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.application\\services\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|solutionrelative:pgmanagementsystem.application\\services\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|solutionrelative:pgmanagementsystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9324FF80-A4C2-4895-BEBB-E2EA47DACE17}|PGManagementSystem.Infrastructure\\PGManagementSystem.Infrastructure.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.infrastructure\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9324FF80-A4C2-4895-BEBB-E2EA47DACE17}|PGManagementSystem.Infrastructure\\PGManagementSystem.Infrastructure.csproj|solutionrelative:pgmanagementsystem.infrastructure\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9324FF80-A4C2-4895-BEBB-E2EA47DACE17}|PGManagementSystem.Infrastructure\\PGManagementSystem.Infrastructure.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.infrastructure\\repositories\\dashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9324FF80-A4C2-4895-BEBB-E2EA47DACE17}|PGManagementSystem.Infrastructure\\PGManagementSystem.Infrastructure.csproj|solutionrelative:pgmanagementsystem.infrastructure\\repositories\\dashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9324FF80-A4C2-4895-BEBB-E2EA47DACE17}|PGManagementSystem.Infrastructure\\PGManagementSystem.Infrastructure.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9324FF80-A4C2-4895-BEBB-E2EA47DACE17}|PGManagementSystem.Infrastructure\\PGManagementSystem.Infrastructure.csproj|solutionrelative:pgmanagementsystem.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6255E43E-03A1-4B29-8DB5-64EDA641E945}|PGManagementSystem.Domain\\PGManagementSystem.Domain.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.domain\\enums\\enumallocationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6255E43E-03A1-4B29-8DB5-64EDA641E945}|PGManagementSystem.Domain\\PGManagementSystem.Domain.csproj|solutionrelative:pgmanagementsystem.domain\\enums\\enumallocationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9324FF80-A4C2-4895-BEBB-E2EA47DACE17}|PGManagementSystem.Infrastructure\\PGManagementSystem.Infrastructure.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.infrastructure\\repositories\\dashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9324FF80-A4C2-4895-BEBB-E2EA47DACE17}|PGManagementSystem.Infrastructure\\PGManagementSystem.Infrastructure.csproj|solutionrelative:pgmanagementsystem.infrastructure\\repositories\\dashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.application\\interfaces\\idashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,8 +27,52 @@
       "RelativeMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|solutionrelative:pgmanagementsystem.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6255E43E-03A1-4B29-8DB5-64EDA641E945}|PGManagementSystem.Domain\\PGManagementSystem.Domain.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.domain\\enums\\enumpaymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6255E43E-03A1-4B29-8DB5-64EDA641E945}|PGManagementSystem.Domain\\PGManagementSystem.Domain.csproj|solutionrelative:pgmanagementsystem.domain\\enums\\enumpaymentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.api\\controllers\\flatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|solutionrelative:pgmanagementsystem.api\\controllers\\flatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9324FF80-A4C2-4895-BEBB-E2EA47DACE17}|PGManagementSystem.Infrastructure\\PGManagementSystem.Infrastructure.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.infrastructure\\repositories\\rentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9324FF80-A4C2-4895-BEBB-E2EA47DACE17}|PGManagementSystem.Infrastructure\\PGManagementSystem.Infrastructure.csproj|solutionrelative:pgmanagementsystem.infrastructure\\repositories\\rentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.application\\interfaces\\irentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|solutionrelative:pgmanagementsystem.application\\interfaces\\irentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.api\\controllers\\rentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|solutionrelative:pgmanagementsystem.api\\controllers\\rentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.application\\interfaces\\irentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|solutionrelative:pgmanagementsystem.application\\interfaces\\irentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|solutionrelative:pgmanagementsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|solutionrelative:pgmanagementsystem.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.api\\controllers\\tenantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|solutionrelative:pgmanagementsystem.api\\controllers\\tenantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.application\\services\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|solutionrelative:pgmanagementsystem.application\\services\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|solutionrelative:pgmanagementsystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9324FF80-A4C2-4895-BEBB-E2EA47DACE17}|PGManagementSystem.Infrastructure\\PGManagementSystem.Infrastructure.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.infrastructure\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9324FF80-A4C2-4895-BEBB-E2EA47DACE17}|PGManagementSystem.Infrastructure\\PGManagementSystem.Infrastructure.csproj|solutionrelative:pgmanagementsystem.infrastructure\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6255E43E-03A1-4B29-8DB5-64EDA641E945}|PGManagementSystem.Domain\\PGManagementSystem.Domain.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.domain\\enums\\enumallocationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6255E43E-03A1-4B29-8DB5-64EDA641E945}|PGManagementSystem.Domain\\PGManagementSystem.Domain.csproj|solutionrelative:pgmanagementsystem.domain\\enums\\enumallocationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6255E43E-03A1-4B29-8DB5-64EDA641E945}|PGManagementSystem.Domain\\PGManagementSystem.Domain.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.domain\\enums\\enumpaymentmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -73,30 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|solutionrelative:pgmanagementsystem.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9324FF80-A4C2-4895-BEBB-E2EA47DACE17}|PGManagementSystem.Infrastructure\\PGManagementSystem.Infrastructure.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.infrastructure\\repositories\\rentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9324FF80-A4C2-4895-BEBB-E2EA47DACE17}|PGManagementSystem.Infrastructure\\PGManagementSystem.Infrastructure.csproj|solutionrelative:pgmanagementsystem.infrastructure\\repositories\\rentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.application\\services\\rentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|solutionrelative:pgmanagementsystem.application\\services\\rentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.application\\interfaces\\irentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|solutionrelative:pgmanagementsystem.application\\interfaces\\irentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.application\\interfaces\\irentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|solutionrelative:pgmanagementsystem.application\\interfaces\\irentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.application\\dtos\\rent\\recordpaymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|solutionrelative:pgmanagementsystem.application\\dtos\\rent\\recordpaymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.application\\dtos\\rent\\rentbillresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|solutionrelative:pgmanagementsystem.application\\dtos\\rent\\rentbillresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.application\\dtos\\rent\\generaterentbilldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -177,10 +165,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.application\\interfaces\\iflatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|solutionrelative:pgmanagementsystem.application\\interfaces\\iflatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.api\\controllers\\flatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|solutionrelative:pgmanagementsystem.api\\controllers\\flatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|c:\\users\\kunal\\desktop\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.application\\interfaces\\itenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -274,23 +258,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DashboardService.cs",
-              "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Services\\DashboardService.cs",
-              "RelativeDocumentMoniker": "PGManagementSystem.Application\\Services\\DashboardService.cs",
-              "ToolTip": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Services\\DashboardService.cs",
-              "RelativeToolTip": "PGManagementSystem.Application\\Services\\DashboardService.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAewBUAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-08T15:12:43.085Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "IDashboardRepository.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Interfaces\\IDashboardRepository.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\Interfaces\\IDashboardRepository.cs",
@@ -298,23 +270,116 @@
               "RelativeToolTip": "PGManagementSystem.Application\\Interfaces\\IDashboardRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-08T15:10:57.403Z"
+              "WhenOpened": "2026-08-08T15:10:57.403Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.API\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "PGManagementSystem.API\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCIAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-08T20:42:16.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IDashboardService.cs",
+              "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Services\\IDashboardService.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.Application\\Services\\IDashboardService.cs",
+              "ToolTip": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Services\\IDashboardService.cs",
+              "RelativeToolTip": "PGManagementSystem.Application\\Services\\IDashboardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-08T15:12:28.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DashboardService.cs",
+              "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Services\\DashboardService.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.Application\\Services\\DashboardService.cs",
+              "ToolTip": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Services\\DashboardService.cs",
+              "RelativeToolTip": "PGManagementSystem.Application\\Services\\DashboardService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAewBUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-08T15:12:43.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "DashboardRepository.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Infrastructure\\Repositories\\DashboardRepository.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Infrastructure\\Repositories\\DashboardRepository.cs",
               "ToolTip": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Infrastructure\\Repositories\\DashboardRepository.cs",
               "RelativeToolTip": "PGManagementSystem.Infrastructure\\Repositories\\DashboardRepository.cs",
-              "ViewState": "AgIAAJkAAAAAAAAAAAAuwKYAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAjwFUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-08T15:11:23.687Z"
+              "WhenOpened": "2026-08-08T15:11:23.687Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "PGManagementSystem.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-09T12:41:28.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FlatsController.cs",
+              "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Controllers\\FlatsController.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.API\\Controllers\\FlatsController.cs",
+              "ToolTip": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Controllers\\FlatsController.cs",
+              "RelativeToolTip": "PGManagementSystem.API\\Controllers\\FlatsController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAmwBgAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-05T17:39:38.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Infrastructure\\Repositories\\RentRepository.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.Infrastructure\\Repositories\\RentRepository.cs",
+              "ToolTip": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Infrastructure\\Repositories\\RentRepository.cs",
+              "RelativeToolTip": "PGManagementSystem.Infrastructure\\Repositories\\RentRepository.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAewFUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-09T06:29:08.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IRentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Interfaces\\IRentRepository.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.Application\\Interfaces\\IRentRepository.cs",
+              "ToolTip": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Interfaces\\IRentRepository.cs",
+              "RelativeToolTip": "PGManagementSystem.Application\\Interfaces\\IRentRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-09T08:29:15.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.API\\Controllers\\AuthController.cs",
@@ -322,38 +387,49 @@
               "RelativeToolTip": "PGManagementSystem.API\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAKkAAAAAAAAAAAAuwLcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-08T17:19:42.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-08T17:19:42.438Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Program.cs",
-              "RelativeDocumentMoniker": "PGManagementSystem.API\\Program.cs",
-              "ToolTip": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Program.cs",
-              "RelativeToolTip": "PGManagementSystem.API\\Program.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAgwHQAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "IRentService.cs",
+              "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Interfaces\\IRentService.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.Application\\Interfaces\\IRentService.cs",
+              "ToolTip": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Interfaces\\IRentService.cs",
+              "RelativeToolTip": "PGManagementSystem.Application\\Interfaces\\IRentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-08T19:54:31.829Z",
+              "WhenOpened": "2026-08-09T08:29:47.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "RentController.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Controllers\\RentController.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.API\\Controllers\\RentController.cs",
               "ToolTip": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Controllers\\RentController.cs",
               "RelativeToolTip": "PGManagementSystem.API\\Controllers\\RentController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAUwCkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDAAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-09T07:01:10.073Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
+              "Title": "TenantController.cs",
+              "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Controllers\\TenantController.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.API\\Controllers\\TenantController.cs",
+              "ToolTip": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Controllers\\TenantController.cs",
+              "RelativeToolTip": "PGManagementSystem.API\\Controllers\\TenantController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAApwFQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-07T15:08:48.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\appsettings.json",
               "RelativeDocumentMoniker": "PGManagementSystem.API\\appsettings.json",
@@ -365,20 +441,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TenantController.cs",
-              "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Controllers\\TenantController.cs",
-              "RelativeDocumentMoniker": "PGManagementSystem.API\\Controllers\\TenantController.cs",
-              "ToolTip": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Controllers\\TenantController.cs",
-              "RelativeToolTip": "PGManagementSystem.API\\Controllers\\TenantController.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAApwFQAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Program.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.API\\Program.cs",
+              "ToolTip": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Program.cs",
+              "RelativeToolTip": "PGManagementSystem.API\\Program.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAuwIwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-07T15:08:48.93Z",
+              "WhenOpened": "2026-08-08T19:54:31.829Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "AppDbContextFactory.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Infrastructure\\AppDbContextFactory.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Infrastructure\\AppDbContextFactory.cs",
@@ -390,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "OtpService.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Services\\OtpService.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\Services\\OtpService.cs",
@@ -402,31 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IDashboardService.cs",
-              "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Services\\IDashboardService.cs",
-              "RelativeDocumentMoniker": "PGManagementSystem.Application\\Services\\IDashboardService.cs",
-              "ToolTip": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Services\\IDashboardService.cs",
-              "RelativeToolTip": "PGManagementSystem.Application\\Services\\IDashboardService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-08T15:12:28.311Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Infrastructure\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "PGManagementSystem.Infrastructure\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Infrastructure\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "PGManagementSystem.Infrastructure\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAgwI0AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T12:41:28.943Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "enumAllocationType.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Domain\\Enums\\enumAllocationType.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Domain\\Enums\\enumAllocationType.cs",
@@ -438,31 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "PGManagementSystem.API\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "PGManagementSystem.API\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCIAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-08T20:42:16.213Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "enumPaymentStatus.cs",
-              "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Domain\\Enums\\enumPaymentStatus.cs",
-              "RelativeDocumentMoniker": "PGManagementSystem.Domain\\Enums\\enumPaymentStatus.cs",
-              "ToolTip": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Domain\\Enums\\enumPaymentStatus.cs",
-              "RelativeToolTip": "PGManagementSystem.Domain\\Enums\\enumPaymentStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T09:54:38.106Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 23,
               "Title": "enumTenantStatus.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Domain\\Enums\\enumTenantStatus.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Domain\\Enums\\enumTenantStatus.cs",
@@ -475,18 +503,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "RentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Infrastructure\\Repositories\\RentRepository.cs",
-              "RelativeDocumentMoniker": "PGManagementSystem.Infrastructure\\Repositories\\RentRepository.cs",
-              "ToolTip": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Infrastructure\\Repositories\\RentRepository.cs",
-              "RelativeToolTip": "PGManagementSystem.Infrastructure\\Repositories\\RentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T06:29:08.367Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "enumPaymentMode.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Domain\\Enums\\enumPaymentMode.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Domain\\Enums\\enumPaymentMode.cs",
@@ -498,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.API\\WeatherForecast.cs",
@@ -510,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\Services\\AuthService.cs",
@@ -522,67 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "RentBillResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\Rent\\RentBillResponseDto.cs",
-              "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\Rent\\RentBillResponseDto.cs",
-              "ToolTip": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\Rent\\RentBillResponseDto.cs",
-              "RelativeToolTip": "PGManagementSystem.Application\\DTOs\\Rent\\RentBillResponseDto.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA3wBgAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T06:23:33.043Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "RentService.cs",
-              "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Services\\RentService.cs",
-              "RelativeDocumentMoniker": "PGManagementSystem.Application\\Services\\RentService.cs",
-              "ToolTip": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Services\\RentService.cs",
-              "RelativeToolTip": "PGManagementSystem.Application\\Services\\RentService.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAIwIsAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T06:23:56.754Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "RecordPaymentDto.cs",
-              "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\Rent\\RecordPaymentDto.cs",
-              "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\Rent\\RecordPaymentDto.cs",
-              "ToolTip": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\Rent\\RecordPaymentDto.cs",
-              "RelativeToolTip": "PGManagementSystem.Application\\DTOs\\Rent\\RecordPaymentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T08:15:17.352Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "IRentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Interfaces\\IRentRepository.cs",
-              "RelativeDocumentMoniker": "PGManagementSystem.Application\\Interfaces\\IRentRepository.cs",
-              "ToolTip": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Interfaces\\IRentRepository.cs",
-              "RelativeToolTip": "PGManagementSystem.Application\\Interfaces\\IRentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T08:29:15.217Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IRentService.cs",
-              "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Interfaces\\IRentService.cs",
-              "RelativeDocumentMoniker": "PGManagementSystem.Application\\Interfaces\\IRentService.cs",
-              "ToolTip": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Interfaces\\IRentService.cs",
-              "RelativeToolTip": "PGManagementSystem.Application\\Interfaces\\IRentService.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAQwAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-09T08:29:47.545Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
               "Title": "GenerateRentBillDto.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\Rent\\GenerateRentBillDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\Rent\\GenerateRentBillDto.cs",
@@ -594,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 22,
               "Title": "ElectricityBreakdownDto.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\Rent\\ElectricityBreakdownDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\Rent\\ElectricityBreakdownDto.cs",
@@ -606,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 25,
               "Title": "TenantMaster.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Domain\\Entities\\TenantMaster.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Domain\\Entities\\TenantMaster.cs",
@@ -618,7 +574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 24,
               "Title": "ITenantRepository.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Interfaces\\ITenantRepository.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\Interfaces\\ITenantRepository.cs",
@@ -630,7 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 27,
               "Title": "DashboardAlertDto.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\Dashboard\\DashboardAlertDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\Dashboard\\DashboardAlertDto.cs",
@@ -642,7 +598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 29,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.API\\Controllers\\UserController.cs",
@@ -654,7 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 26,
               "Title": "enumBedStatus.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Domain\\Enums\\enumBedStatus.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Domain\\Enums\\enumBedStatus.cs",
@@ -666,7 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 30,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\Services\\UserService.cs",
@@ -678,7 +634,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 31,
               "Title": "TenantService.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Services\\TenantService.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\Services\\TenantService.cs",
@@ -690,7 +646,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 28,
               "Title": "CreateUserDto.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\CreateUserDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\CreateUserDto.cs",
@@ -702,7 +658,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 32,
               "Title": "RecentActivityDto.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\Dashboard\\RecentActivityDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\Dashboard\\RecentActivityDto.cs",
@@ -714,7 +670,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 33,
               "Title": "PropertyMetricsDto.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\Dashboard\\PropertyMetricsDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\Dashboard\\PropertyMetricsDto.cs",
@@ -726,7 +682,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 34,
               "Title": "RevenueOverviewDto.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\Dashboard\\RevenueOverviewDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\Dashboard\\RevenueOverviewDto.cs",
@@ -738,7 +694,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 35,
               "Title": "DashboardResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\Dashboard\\DashboardResponseDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\Dashboard\\DashboardResponseDto.cs",
@@ -750,19 +706,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "FlatsController.cs",
-              "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Controllers\\FlatsController.cs",
-              "RelativeDocumentMoniker": "PGManagementSystem.API\\Controllers\\FlatsController.cs",
-              "ToolTip": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Controllers\\FlatsController.cs",
-              "RelativeToolTip": "PGManagementSystem.API\\Controllers\\FlatsController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAmwBgAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-05T17:39:38.663Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 40,
               "Title": "IFlatService.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Interfaces\\IFlatService.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\Interfaces\\IFlatService.cs",
@@ -774,7 +718,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 37,
               "Title": "FlatService.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Services\\FlatService.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\Services\\FlatService.cs",
@@ -786,7 +730,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 36,
               "Title": "TenantResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\TenantResponseDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\TenantResponseDto.cs",
@@ -798,7 +742,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 38,
               "Title": "BedBreakupDto.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\BedBreakupDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\BedBreakupDto.cs",
@@ -810,7 +754,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 41,
               "Title": "ITenantService.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Interfaces\\ITenantService.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\Interfaces\\ITenantService.cs",
@@ -822,7 +766,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 39,
               "Title": "FlatSummaryDto.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\FlatSummaryDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\FlatSummaryDto.cs",
@@ -834,7 +778,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 42,
               "Title": "ZoneMaster.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Domain\\Entities\\ZoneMaster.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Domain\\Entities\\ZoneMaster.cs",
@@ -846,7 +790,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 43,
               "Title": "UpdateTenantDto.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\UpdateTenantDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\UpdateTenantDto.cs",
@@ -858,7 +802,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 44,
               "Title": "FlatRepository.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Infrastructure\\Repositories\\FlatRepository.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Infrastructure\\Repositories\\FlatRepository.cs",
@@ -870,7 +814,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 46,
               "Title": "IFlatRepository.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Interfaces\\IFlatRepository.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\Interfaces\\IFlatRepository.cs",
@@ -882,7 +826,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 47,
               "Title": "CreateZoneDto.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\CreateZoneDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\CreateZoneDto.cs",
@@ -894,7 +838,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 45,
               "Title": "CreateBedDto.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\CreateBedDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\CreateBedDto.cs",
@@ -906,7 +850,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 50,
               "Title": "BedDetailDto.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\BedDetailDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\BedDetailDto.cs",
@@ -918,7 +862,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 48,
               "Title": "CreateFlatDto.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\CreateFlatDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\CreateFlatDto.cs",
@@ -930,7 +874,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 49,
               "Title": "ZoneDetailDto.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\ZoneDetailDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\ZoneDetailDto.cs",
@@ -942,7 +886,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 51,
               "Title": "FlatDetailDto.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\FlatDetailDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\FlatDetailDto.cs",
@@ -954,7 +898,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 52,
               "Title": "PGRepository .cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Infrastructure\\Repositories\\PGRepository .cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Infrastructure\\Repositories\\PGRepository .cs",
@@ -966,7 +910,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 53,
               "Title": "UpdateFlatDto.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\UpdateFlatDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\UpdateFlatDto.cs",
@@ -978,7 +922,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 56,
               "Title": "UserResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\UserResponseDto.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\UserResponseDto.cs",
@@ -990,7 +934,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 55,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\Interfaces\\IUserRepository.cs",
@@ -1002,7 +946,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 54,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Infrastructure\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Infrastructure\\Repositories\\UserRepository.cs",
@@ -1014,7 +958,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 60,
               "Title": "RoleRepository.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Infrastructure\\Repositories\\RoleRepository.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Infrastructure\\Repositories\\RoleRepository.cs",
@@ -1026,7 +970,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 58,
               "Title": "RoleService.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Services\\RoleService.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\Services\\RoleService.cs",
@@ -1038,7 +982,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 59,
               "Title": "RoleController.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Controllers\\RoleController.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.API\\Controllers\\RoleController.cs",
@@ -1050,7 +994,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 57,
               "Title": "IRoleService.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Interfaces\\IRoleService.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\Interfaces\\IRoleService.cs",
@@ -1062,7 +1006,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 61,
               "Title": "Pg.cs",
               "DocumentMoniker": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Domain\\Entities\\Pg.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Domain\\Entities\\Pg.cs",

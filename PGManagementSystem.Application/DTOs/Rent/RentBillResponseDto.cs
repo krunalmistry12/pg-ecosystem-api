@@ -28,5 +28,6 @@ namespace PGManagementSystem.Application.DTOs.Rent
         public DateTime DueDate { get; set; }
 
         public ElectricityBreakdownDto ElectricityDetails { get; set; } = new();
+        public List<RentPaymentHistoryDto> PaymentHistory { get; set; } = new();
     }
 }
