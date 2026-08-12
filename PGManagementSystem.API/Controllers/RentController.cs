@@ -45,7 +45,7 @@ namespace PGManagementSystem.Controllers
         /// PG Owner: Record Payment from a Tenant
         /// </summary>
         [HttpPost("record-payment")]
-        [Authorize(Roles = "Tenant")]
+        [Authorize(Roles = "Tenant,Admin")]
         public async Task<IActionResult> RecordPayment([FromBody] RecordPaymentDto dto)
         {
             try

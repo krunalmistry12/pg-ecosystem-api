@@ -267,6 +267,69 @@
         }
       }
     },
+    "/api/Notices": {
+      "post": {
+        "tags": [
+          "Notices"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateNoticeDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateNoticeDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateNoticeDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Notices"
+        ],
+        "parameters": [
+          {
+            "name": "flatid",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Notices/admin": {
+      "get": {
+        "tags": [
+          "Notices"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/pg": {
       "post": {
         "tags": [
@@ -1123,6 +1186,35 @@
             "items": {
               "$ref": "#/components/schemas/CreateZoneDto"
             },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateNoticeDto": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "flatId": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "isUrgent": {
+            "type": "boolean"
+          },
+          "sendNotification": {
+            "type": "boolean"
+          },
+          "createdByAdminId": {
+            "type": "string",
             "nullable": true
           }
         },

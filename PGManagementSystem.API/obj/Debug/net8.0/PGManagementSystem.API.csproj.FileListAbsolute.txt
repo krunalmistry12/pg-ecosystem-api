@@ -130,8 +130,8 @@ D:\Dotnet\PGManagementSystem\PGManagementSystem.API\obj\Debug\net8.0\ref\PGManag
 D:\Dotnet\PGManagementSystem\PGManagementSystem.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.API\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.API\bin\Debug\net8.0\appsettings.json
-C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.API\bin\Debug\net8.0\PGManagementSystem.API.staticwebassets.endpoints.json
 C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.API\bin\Debug\net8.0\PGManagementSystem.API.staticwebassets.runtime.json
+C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.API\bin\Debug\net8.0\PGManagementSystem.API.staticwebassets.endpoints.json
 C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.API\bin\Debug\net8.0\PGManagementSystem.API.exe
 C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.API\bin\Debug\net8.0\PGManagementSystem.API.deps.json
 C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.API\bin\Debug\net8.0\PGManagementSystem.API.runtimeconfig.json
@@ -252,10 +252,10 @@ C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.
 C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.PGManagementSystem.API.props
 C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PGManagementSystem.API.props
 C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.API\obj\Debug\net8.0\PGManage.5FBF2153.Up2Date
 C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.API\obj\Debug\net8.0\PGManagementSystem.API.dll
 C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.API\obj\Debug\net8.0\refint\PGManagementSystem.API.dll
 C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.API\obj\Debug\net8.0\PGManagementSystem.API.pdb
 C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.API\obj\Debug\net8.0\PGManagementSystem.API.genruntimeconfig.cache
 C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.API\obj\Debug\net8.0\ref\PGManagementSystem.API.dll
-C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

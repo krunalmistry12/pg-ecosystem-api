@@ -94,6 +94,42 @@ namespace PGManagementSystem.Infrastructure.Migrations
                     b.ToTable("FLAT_MST");
                 });
 
+            modelBuilder.Entity("PGManagementSystem.Domain.Entities.NoticeMaster", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("char(36)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("CreatedByAdminId")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<Guid?>("FlatId")
+                        .HasColumnType("char(36)");
+
+                    b.Property<bool>("IsUrgent")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<bool>("SendNotification")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("varchar(200)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("NOTICE_MST");
+                });
+
             modelBuilder.Entity("PGManagementSystem.Domain.Entities.RentMaster", b =>
                 {
                     b.Property<long>("Id")
@@ -398,7 +434,6 @@ namespace PGManagementSystem.Infrastructure.Migrations
             modelBuilder.Entity("PGManagementSystem.Domain.Entities.UserMaster", b =>
                 {
                     b.Property<Guid>("UserId")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
 
                     b.Property<DateTime>("CreatedAt")
@@ -440,6 +475,19 @@ namespace PGManagementSystem.Infrastructure.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("USER_MST");
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = new Guid("5639d859-f1b8-4a90-bb07-0279f38a580c"),
+                            CreatedAt = new DateTime(2026, 8, 5, 17, 55, 4, 367, DateTimeKind.Utc),
+                            Email = "patelkrishana006@gmail.com",
+                            FullName = "kunal",
+                            IsActive = true,
+                            PasswordHash = "$2a$11$qBD0lwESQosX0HyV6demwuCbdW1VynMab.SswDPG9nvUOYCJoYGOu",
+                            Phone = "6352282175",
+                            RoleId = 1
+                        });
                 });
 
             modelBuilder.Entity("PGManagementSystem.Domain.Entities.ZoneMaster", b =>

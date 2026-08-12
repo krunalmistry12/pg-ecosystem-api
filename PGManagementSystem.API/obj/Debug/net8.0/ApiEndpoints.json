@@ -158,6 +158,48 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "NoticesController",
+    "Method": "CreateNotice",
+    "RelativePath": "api/Notices",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "PGManagementSystem.Application.DTOs.Notice.CreateNoticeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NoticesController",
+    "Method": "GetNotices",
+    "RelativePath": "api/Notices",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "flatid",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NoticesController",
+    "Method": "GetNoticesByAdmin",
+    "RelativePath": "api/Notices/admin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PGManagementSystem.API.Controllers.PGController",
     "Method": "Create",
     "RelativePath": "api/pg",

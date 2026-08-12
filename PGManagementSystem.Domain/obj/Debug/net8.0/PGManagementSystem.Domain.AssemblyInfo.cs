@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PGManagementSystem.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80f6fd56d8493a1e677a0d9a6960e1839fefe753")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9e843fc826beba38dc609a46a84ad1d9da90bac")]
 [assembly: System.Reflection.AssemblyProductAttribute("PGManagementSystem.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PGManagementSystem.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

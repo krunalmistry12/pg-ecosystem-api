@@ -10,7 +10,8 @@ public class AppDbContext : DbContext
         : base(options)
     {
     }
-
+    //dotnet ef migrations add AddNoticeTable --project PGManagementSystem.Infrastructure --startup-project PGManagementSystem.API
+    //dotnet ef database update --project PGManagementSystem.Infrastructure --startup-project PGManagementSystem.API
     // ==========================================
     // DB SETS (Database Tables)
     // ==========================================
@@ -22,6 +23,7 @@ public class AppDbContext : DbContext
     public DbSet<TenantMaster> TenantMasters { get; set; } = null!;
     public DbSet<RentMaster> RentMasters { get; set; } = null!;
     public DbSet<RentPaymentHistory> RentPaymentHistories { get; set; } = null!;
+    public DbSet<NoticeMaster> NoticeMasters { get; set; } = null!;
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

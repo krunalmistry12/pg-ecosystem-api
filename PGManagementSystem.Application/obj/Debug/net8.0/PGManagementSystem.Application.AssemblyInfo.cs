@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PGManagementSystem.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+237bae1311e68b9bbfb8f7287f943dc734c971dc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9e843fc826beba38dc609a46a84ad1d9da90bac")]
 [assembly: System.Reflection.AssemblyProductAttribute("PGManagementSystem.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PGManagementSystem.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
