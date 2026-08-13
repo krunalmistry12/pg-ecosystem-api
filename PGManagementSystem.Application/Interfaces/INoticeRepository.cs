@@ -9,6 +9,8 @@ namespace PGManagementSystem.Application.Interfaces
 {
     public interface INoticeRepository
     {
+        Task<NoticeMaster> UpdateAsync(NoticeMaster notice);
+        Task<bool> DeleteAsync(NoticeMaster notice); Task<NoticeMaster> GetByIdAsync(Guid id);
         Task<NoticeMaster> AddAsync(NoticeMaster notice);
         Task<IEnumerable<NoticeMaster>> GetNoticesByPgAsync(Guid? flatid);
         Task<IEnumerable<NoticeMaster>> GetNoticesByAdminAsync(Guid flatid);

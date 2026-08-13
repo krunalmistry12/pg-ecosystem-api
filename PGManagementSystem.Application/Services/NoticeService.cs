@@ -25,7 +25,7 @@ namespace PGManagementSystem.Application.Services
                 Id = Guid.NewGuid(),
                 Title = model.Title,
                 Description = model.Description,
-                FlatId = model.FlatId, 
+                FlatId = model.FlatId,
                 IsUrgent = model.IsUrgent,
                 SendNotification = model.SendNotification,
                 CreatedByAdminId = model.CreatedByAdminId,
@@ -37,15 +37,39 @@ namespace PGManagementSystem.Application.Services
             return MapToDto(createdNotice);
         }
 
+        public async Task<NoticeResponseDto> UpdateNoticeAsync(Guid id, UpdateNoticeDto model)
+        {
+            var existingNotice = await _noticeRepository.GetByIdAsync(id);
+            if (existingNotice == null) return null;
+
+            existingNotice.Title = model.Title;
+            existingNotice.Description = model.Description;
+            existingNotice.FlatId = model.FlatId;
+            existingNotice.IsUrgent = model.IsUrgent;
+            // Agar sendNotification ya koi aur field update karni ho toh yahan add kar sakte hain
+
+            var updatedNotice = await _noticeRepository.UpdateAsync(existingNotice);
+            return MapToDto(updatedNotice);
+        }
+
+        public async Task<bool> DeleteNoticeAsync(Guid id)
+        {
+            var existingNotice = await _noticeRepository.GetByIdAsync(id);
+            if (existingNotice == null) return false;
+
+            return await _noticeRepository.DeleteAsync(existingNotice);
+        }
+
         public async Task<IEnumerable<NoticeResponseDto>> GetNoticesAsync(Guid? flatId)
         {
             var notices = await _noticeRepository.GetNoticesByPgAsync(flatId);
 
             return notices.Select(MapToDto).ToList();
         }
-        public async Task<IEnumerable<NoticeResponseDto>> GetNoticesByAdminAsync(Guid flatId)
+
+        public async Task<IEnumerable<NoticeResponseDto>> GetNoticesByAdminAsync(Guid adminId)
         {
-            var notices = await _noticeRepository.GetNoticesByAdminAsync(flatId);
+            var notices = await _noticeRepository.GetNoticesByAdminAsync(adminId);
 
             return notices.Select(MapToDto).ToList();
         }

@@ -48,5 +48,22 @@ namespace PGManagementSystem.Infrastructure.Repositories
 
             return await query.OrderByDescending(n => n.CreatedAt).ToListAsync();
         }
+        public async Task<NoticeMaster> GetByIdAsync(Guid id)
+        {
+            return await _context.NoticeMasters.FindAsync(id);
+        }
+        public async Task<NoticeMaster> UpdateAsync(NoticeMaster notice)
+        {
+            _context.NoticeMasters.Update(notice);
+            await _context.SaveChangesAsync();
+            return notice;
+        }
+
+        public async Task<bool> DeleteAsync(NoticeMaster notice)
+        {
+            _context.NoticeMasters.Remove(notice);
+            var affectedRows = await _context.SaveChangesAsync();
+            return affectedRows > 0;
+        }
     }
 }

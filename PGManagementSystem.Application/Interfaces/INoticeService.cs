@@ -11,6 +11,8 @@ namespace PGManagementSystem.Application.Interfaces
     {
         Task<NoticeResponseDto> CreateNoticeAsync(CreateNoticeDto model);
         Task<IEnumerable<NoticeResponseDto>> GetNoticesAsync(Guid? flatid);
-        Task<IEnumerable<NoticeResponseDto>> GetNoticesByAdminAsync(Guid id);
+        Task<IEnumerable<NoticeResponseDto>> GetNoticesByAdminAsync(Guid id); 
+        Task<NoticeResponseDto> UpdateNoticeAsync(Guid id, UpdateNoticeDto model);
+        Task<bool> DeleteNoticeAsync(Guid id);
     }
 }

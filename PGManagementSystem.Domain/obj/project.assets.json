@@ -453,11 +453,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Domain\\PGManagementSystem.Domain.csproj",
+      "projectUniqueName": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Domain\\PGManagementSystem.Domain.csproj",
       "projectName": "PGManagementSystem.Domain",
-      "projectPath": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Domain\\PGManagementSystem.Domain.csproj",
+      "projectPath": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Domain\\PGManagementSystem.Domain.csproj",
       "packagesPath": "C:\\Users\\kunal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kunal\\desktop\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Domain\\obj\\",
+      "outputPath": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

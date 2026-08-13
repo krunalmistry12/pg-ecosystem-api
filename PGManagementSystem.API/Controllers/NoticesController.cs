@@ -61,4 +61,60 @@ public class NoticesController : ControllerBase
 
         return Ok(new { success = true, data = result });
     }
+    // PUT: api/notices/{id}
+    [HttpPut("{id}")]
+    public async Task<IActionResult> UpdateNotice(Guid id, [FromBody] UpdateNoticeDto model)
+    {
+        if (id == Guid.Empty)
+        {
+            return BadRequest(new { success = false, message = "Invalid Notice ID." });
+        }
+
+        if (model == null || string.IsNullOrEmpty(model.Title) || string.IsNullOrEmpty(model.Description))
+        {
+            return BadRequest(new { success = false, message = "Title and Description are required." });
+        }
+
+        try
+        {
+            var updatedNotice = await _noticeService.UpdateNoticeAsync(id, model);
+
+            if (updatedNotice == null)
+            {
+                return NotFound(new { success = false, message = "Notice not found." });
+            }
+
+            return Ok(new { success = true, message = "Notice updated successfully!", data = updatedNotice });
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, new { success = false, message = "Internal server error", error = ex.Message });
+        }
+    }
+
+    // DELETE: api/notices/{id}
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteNotice(Guid id)
+    {
+        if (id == Guid.Empty)
+        {
+            return BadRequest(new { success = false, message = "Invalid Notice ID." });
+        }
+
+        try
+        {
+            var isDeleted = await _noticeService.DeleteNoticeAsync(id);
+
+            if (!isDeleted)
+            {
+                return NotFound(new { success = false, message = "Notice not found." });
+            }
+
+            return Ok(new { success = true, message = "Notice deleted successfully!" });
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, new { success = false, message = "Internal server error", error = ex.Message });
+        }
+    }
 }

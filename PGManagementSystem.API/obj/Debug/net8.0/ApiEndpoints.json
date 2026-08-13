@@ -191,6 +191,43 @@
   },
   {
     "ContainingType": "NoticesController",
+    "Method": "UpdateNotice",
+    "RelativePath": "api/Notices/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "PGManagementSystem.Application.DTOs.Notice.UpdateNoticeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NoticesController",
+    "Method": "DeleteNotice",
+    "RelativePath": "api/Notices/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NoticesController",
     "Method": "GetNoticesByAdmin",
     "RelativePath": "api/Notices/admin",
     "HttpMethod": "GET",
