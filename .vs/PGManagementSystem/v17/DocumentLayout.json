@@ -50,8 +50,7 @@
               "RelativeToolTip": "PGManagementSystem.Application\\Interfaces\\INoticeRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-13T16:41:12.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-13T16:41:12.766Z"
             },
             {
               "$type": "Document",
@@ -63,8 +62,7 @@
               "RelativeToolTip": "PGManagementSystem.Application\\Interfaces\\INoticeService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-13T16:40:13.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-13T16:40:13.182Z"
             },
             {
               "$type": "Document",
@@ -76,8 +74,7 @@
               "RelativeToolTip": "PGManagementSystem.Infrastructure\\Repositories\\NoticeRepository.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAgwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-13T15:45:31.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-13T15:45:31.596Z"
             },
             {
               "$type": "Document",
@@ -89,8 +86,7 @@
               "RelativeToolTip": "PGManagementSystem.Application\\Services\\NoticeService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-13T15:45:25.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-13T15:45:25.102Z"
             },
             {
               "$type": "Document",
@@ -102,8 +98,7 @@
               "RelativeToolTip": "PGManagementSystem.API\\Controllers\\NoticesController.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAiwC0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-13T15:44:47.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-13T15:44:47.351Z"
             },
             {
               "$type": "Document",
@@ -115,8 +110,7 @@
               "RelativeToolTip": "PGManagementSystem.Application\\Services\\TenantService.cs",
               "ViewState": "AgIAAIAAAAAAAAAAAAAnwJkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-13T15:25:57.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-13T15:25:57.384Z"
             },
             {
               "$type": "Document",
@@ -126,7 +120,7 @@
               "RelativeDocumentMoniker": "PGManagementSystem.API\\Controllers\\TenantController.cs",
               "ToolTip": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Controllers\\TenantController.cs",
               "RelativeToolTip": "PGManagementSystem.API\\Controllers\\TenantController.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAswD4AAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-13T15:25:45.744Z",
               "EditorCaption": ""
