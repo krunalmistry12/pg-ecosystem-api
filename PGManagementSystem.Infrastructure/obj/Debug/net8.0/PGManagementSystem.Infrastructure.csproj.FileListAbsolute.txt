@@ -37,6 +37,12 @@ C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.
 C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Infrastructure\obj\Debug\net8.0\PGManagementSystem.Infrastructure.pdb
 C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Infrastructure\obj\Debug\net8.0\PGManagementSystem.Infrastructure.genruntimeconfig.cache
 C:\Users\kunal\desktop\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Infrastructure\obj\Debug\net8.0\ref\PGManagementSystem.Infrastructure.dll
+D:\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Infrastructure\obj\Debug\net8.0\PGManagementSystem.Infrastructure.csproj.AssemblyReference.cache
+D:\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Infrastructure\obj\Debug\net8.0\PGManagementSystem.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Infrastructure\obj\Debug\net8.0\PGManagementSystem.Infrastructure.AssemblyInfoInputs.cache
+D:\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Infrastructure\obj\Debug\net8.0\PGManagementSystem.Infrastructure.AssemblyInfo.cs
+D:\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Infrastructure\obj\Debug\net8.0\PGManagementSystem.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Infrastructure\obj\Debug\net8.0\PGManagementSystem.Infrastructure.sourcelink.json
 D:\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Infrastructure\bin\Debug\net8.0\PGManagementSystem.Infrastructure.deps.json
 D:\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Infrastructure\bin\Debug\net8.0\PGManagementSystem.Infrastructure.runtimeconfig.json
 D:\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Infrastructure\bin\Debug\net8.0\PGManagementSystem.Infrastructure.dll
@@ -45,12 +51,6 @@ D:\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Infrastructure\bin\D
 D:\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Infrastructure\bin\Debug\net8.0\PGManagementSystem.Domain.dll
 D:\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Infrastructure\bin\Debug\net8.0\PGManagementSystem.Application.pdb
 D:\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Infrastructure\bin\Debug\net8.0\PGManagementSystem.Domain.pdb
-D:\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Infrastructure\obj\Debug\net8.0\PGManagementSystem.Infrastructure.csproj.AssemblyReference.cache
-D:\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Infrastructure\obj\Debug\net8.0\PGManagementSystem.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-D:\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Infrastructure\obj\Debug\net8.0\PGManagementSystem.Infrastructure.AssemblyInfoInputs.cache
-D:\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Infrastructure\obj\Debug\net8.0\PGManagementSystem.Infrastructure.AssemblyInfo.cs
-D:\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Infrastructure\obj\Debug\net8.0\PGManagementSystem.Infrastructure.csproj.CoreCompileInputs.cache
-D:\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Infrastructure\obj\Debug\net8.0\PGManagementSystem.Infrastructure.sourcelink.json
 D:\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Infrastructure\obj\Debug\net8.0\PGManage.AB6A05EF.Up2Date
 D:\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Infrastructure\obj\Debug\net8.0\PGManagementSystem.Infrastructure.dll
 D:\Github\pg-app\pg-app\pg-ecosystem-api\PGManagementSystem.Infrastructure\obj\Debug\net8.0\refint\PGManagementSystem.Infrastructure.dll

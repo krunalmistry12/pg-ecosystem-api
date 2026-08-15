@@ -32,6 +32,58 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "PGManagementSystem.API.Controllers.ComplaintsController",
+    "Method": "GetAllComplaints",
+    "RelativePath": "api/Complaints/admin/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PGManagementSystem.API.Controllers.ComplaintsController",
+    "Method": "UpdateComplaint",
+    "RelativePath": "api/Complaints/admin/update-status",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PGManagementSystem.Application.DTOs.Complaint.UpdateComplaintDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PGManagementSystem.API.Controllers.ComplaintsController",
+    "Method": "CreateComplaint",
+    "RelativePath": "api/Complaints/tenant/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PGManagementSystem.Application.DTOs.Complaint.CreateComplaintDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PGManagementSystem.API.Controllers.ComplaintsController",
+    "Method": "GetMyComplaints",
+    "RelativePath": "api/Complaints/tenant/my-complaints",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PGManagementSystem.API.Controllers.DashboardController",
     "Method": "GetDashboardSummary",
     "RelativePath": "api/Dashboard/summary",
@@ -71,6 +123,48 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "PGManagementSystem.API.Controllers.ExpensesController",
+    "Method": "GetAllExpenses",
+    "RelativePath": "api/Expenses",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PGManagementSystem.API.Controllers.ExpensesController",
+    "Method": "CreateExpense",
+    "RelativePath": "api/Expenses",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PGManagementSystem.Application.DTOs.Expense.CreateExpenseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PGManagementSystem.API.Controllers.ExpensesController",
+    "Method": "DeleteExpense",
+    "RelativePath": "api/Expenses/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "PGManagementSystem.API.Controllers.FlatsController",
@@ -753,6 +847,22 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PGManagementSystem.API.Controllers.UserController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/User/update-profile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PGManagementSystem.Application.DTOs.UpdateProfileDto",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   }
 ]

@@ -10,8 +10,11 @@ public class AppDbContext : DbContext
         : base(options)
     {
     }
-    //dotnet ef migrations add AddNoticeTable --project PGManagementSystem.Infrastructure --startup-project PGManagementSystem.API
+    //$env:AIVEN_MYSQL_CONNECTION="Server=mysql-27894e30-kunalmistry0177-2c61.k.aivencloud.com;Port=26391;Database=defaultdb;Uid=avnadmin;Pwd=AVNS_R6JBq1QJ7ibgL270cq-;SslMode=Required;"
+    // $env:AIVEN_MYSQL_CONNECTION="server=localhost;port=3306;database=pgdb;user=root;password=root"
+    //dotnet ef migrations add AddComplaintAndExpenseTables --project PGManagementSystem.Infrastructure --startup-project PGManagementSystem.API
     //dotnet ef database update --project PGManagementSystem.Infrastructure --startup-project PGManagementSystem.API
+
     // ==========================================
     // DB SETS (Database Tables)
     // ==========================================
@@ -24,6 +27,8 @@ public class AppDbContext : DbContext
     public DbSet<RentMaster> RentMasters { get; set; } = null!;
     public DbSet<RentPaymentHistory> RentPaymentHistories { get; set; } = null!;
     public DbSet<NoticeMaster> NoticeMasters { get; set; } = null!;
+    public DbSet<ComplaintMaster> Complaints { get; set; } = null!;
+    public DbSet<ExpenseMaster> Expenses { get; set; } = null!;
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -115,6 +120,13 @@ public class AppDbContext : DbContext
             .WithMany(z => z.Beds)
             .HasForeignKey(b => b.ZoneId)
             .OnDelete(DeleteBehavior.Cascade);
+
+        // Self-Referencing Relation for Admin -> SubUsers (Manager/Staff hierarchy)
+        modelBuilder.Entity<UserMaster>()
+            .HasOne(u => u.SuperAdmin)
+            .WithMany(u => u.SubUsers)
+            .HasForeignKey(u => u.CreatedBySuperAdminId)
+            .OnDelete(DeleteBehavior.Restrict);
 
         // ==========================================
         // 4. DEFAULT SEED DATA & CONFIGURATIONS

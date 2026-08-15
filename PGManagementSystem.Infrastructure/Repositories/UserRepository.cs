@@ -67,5 +67,23 @@ namespace PGManagementSystem.Infrastructure.Repositories
                 .Include(u => u.Role)
                 .FirstOrDefaultAsync(u => u.FullName == FullName);
         }
+        public async Task<bool> IsEmailExistsForOtherUserAsync(string email, Guid currentUserId)
+        {
+            return await _context.UserMasters
+                .AnyAsync(u => u.Email == email && u.UserId != currentUserId);
+        }
+
+        public async Task<bool> IsPhoneExistsForOtherUserAsync(string phone, Guid currentUserId)
+        {
+            return await _context.UserMasters
+                .AnyAsync(u => u.Phone == phone && u.UserId != currentUserId);
+        }
+
+        public async Task<bool> UpdateUserProfileAsync(UserMaster user)
+        {
+            _context.UserMasters.Update(user);
+            int affectedRows = await _context.SaveChangesAsync();
+            return affectedRows > 0;
+        }
     }
 }

@@ -3,8 +3,84 @@
   "WorkspaceRootPath": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|d:\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|solutionrelative:pgmanagementsystem.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|d:\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|solutionrelative:pgmanagementsystem.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|d:\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.api\\controllers\\tenantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|solutionrelative:pgmanagementsystem.api\\controllers\\tenantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|d:\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.api\\controllers\\complaintscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|solutionrelative:pgmanagementsystem.api\\controllers\\complaintscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|d:\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.application\\dtos\\complaint\\updatecomplaintdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|solutionrelative:pgmanagementsystem.application\\dtos\\complaint\\updatecomplaintdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6255E43E-03A1-4B29-8DB5-64EDA641E945}|PGManagementSystem.Domain\\PGManagementSystem.Domain.csproj|d:\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.domain\\entities\\complaintmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6255E43E-03A1-4B29-8DB5-64EDA641E945}|PGManagementSystem.Domain\\PGManagementSystem.Domain.csproj|solutionrelative:pgmanagementsystem.domain\\entities\\complaintmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|d:\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.application\\interfaces\\icomplaintrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|solutionrelative:pgmanagementsystem.application\\interfaces\\icomplaintrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9324FF80-A4C2-4895-BEBB-E2EA47DACE17}|PGManagementSystem.Infrastructure\\PGManagementSystem.Infrastructure.csproj|d:\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.infrastructure\\repositories\\complaintrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9324FF80-A4C2-4895-BEBB-E2EA47DACE17}|PGManagementSystem.Infrastructure\\PGManagementSystem.Infrastructure.csproj|solutionrelative:pgmanagementsystem.infrastructure\\repositories\\complaintrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6255E43E-03A1-4B29-8DB5-64EDA641E945}|PGManagementSystem.Domain\\PGManagementSystem.Domain.csproj|d:\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.domain\\entities\\tenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6255E43E-03A1-4B29-8DB5-64EDA641E945}|PGManagementSystem.Domain\\PGManagementSystem.Domain.csproj|solutionrelative:pgmanagementsystem.domain\\entities\\tenant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|d:\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|solutionrelative:pgmanagementsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9324FF80-A4C2-4895-BEBB-E2EA47DACE17}|PGManagementSystem.Infrastructure\\PGManagementSystem.Infrastructure.csproj|d:\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9324FF80-A4C2-4895-BEBB-E2EA47DACE17}|PGManagementSystem.Infrastructure\\PGManagementSystem.Infrastructure.csproj|solutionrelative:pgmanagementsystem.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|d:\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.application\\dtos\\updateprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|solutionrelative:pgmanagementsystem.application\\dtos\\updateprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|d:\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|solutionrelative:pgmanagementsystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9324FF80-A4C2-4895-BEBB-E2EA47DACE17}|PGManagementSystem.Infrastructure\\PGManagementSystem.Infrastructure.csproj|d:\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.infrastructure\\repositories\\expenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9324FF80-A4C2-4895-BEBB-E2EA47DACE17}|PGManagementSystem.Infrastructure\\PGManagementSystem.Infrastructure.csproj|solutionrelative:pgmanagementsystem.infrastructure\\repositories\\expenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9324FF80-A4C2-4895-BEBB-E2EA47DACE17}|PGManagementSystem.Infrastructure\\PGManagementSystem.Infrastructure.csproj|d:\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9324FF80-A4C2-4895-BEBB-E2EA47DACE17}|PGManagementSystem.Infrastructure\\PGManagementSystem.Infrastructure.csproj|solutionrelative:pgmanagementsystem.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|d:\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.api\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|solutionrelative:pgmanagementsystem.api\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|d:\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.application\\services\\expenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|solutionrelative:pgmanagementsystem.application\\services\\expenseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|d:\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.application\\dtos\\expense\\createexpensedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|solutionrelative:pgmanagementsystem.application\\dtos\\expense\\createexpensedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6255E43E-03A1-4B29-8DB5-64EDA641E945}|PGManagementSystem.Domain\\PGManagementSystem.Domain.csproj|d:\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.domain\\entities\\flatmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6255E43E-03A1-4B29-8DB5-64EDA641E945}|PGManagementSystem.Domain\\PGManagementSystem.Domain.csproj|solutionrelative:pgmanagementsystem.domain\\entities\\flatmaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|d:\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.application\\dtos\\flatsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD521EF5-E844-745E-DF84-41FC89D60B54}|PGManagementSystem.Application\\PGManagementSystem.Application.csproj|solutionrelative:pgmanagementsystem.application\\dtos\\flatsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D16DFF6-D366-431B-A4F7-E0324D006563}|PGManagementSystem.API\\PGManagementSystem.API.csproj|d:\\github\\pg-app\\pg-app\\pg-ecosystem-api\\pgmanagementsystem.api\\controllers\\noticescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,23 +114,271 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "INoticeRepository.cs",
-              "DocumentMoniker": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Interfaces\\INoticeRepository.cs",
-              "RelativeDocumentMoniker": "PGManagementSystem.Application\\Interfaces\\INoticeRepository.cs",
-              "ToolTip": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Interfaces\\INoticeRepository.cs",
-              "RelativeToolTip": "PGManagementSystem.Application\\Interfaces\\INoticeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "PGManagementSystem.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-13T16:41:12.766Z"
+              "WhenOpened": "2026-08-15T04:19:20.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Program.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.API\\Program.cs",
+              "ToolTip": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Program.cs",
+              "RelativeToolTip": "PGManagementSystem.API\\Program.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAuwHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-14T21:28:32.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TenantController.cs",
+              "DocumentMoniker": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Controllers\\TenantController.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.API\\Controllers\\TenantController.cs",
+              "ToolTip": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Controllers\\TenantController.cs",
+              "RelativeToolTip": "PGManagementSystem.API\\Controllers\\TenantController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAYwDAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T15:25:45.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ComplaintsController.cs",
+              "DocumentMoniker": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Controllers\\ComplaintsController.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.API\\Controllers\\ComplaintsController.cs",
+              "ToolTip": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Controllers\\ComplaintsController.cs",
+              "RelativeToolTip": "PGManagementSystem.API\\Controllers\\ComplaintsController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAhwEIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T04:11:25.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.API\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "PGManagementSystem.API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAuwD0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T04:28:34.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.Application\\Services\\UserService.cs",
+              "ToolTip": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "PGManagementSystem.Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAqwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T04:23:13.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UpdateProfileDto.cs",
+              "DocumentMoniker": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\UpdateProfileDto.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\UpdateProfileDto.cs",
+              "ToolTip": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\UpdateProfileDto.cs",
+              "RelativeToolTip": "PGManagementSystem.Application\\DTOs\\UpdateProfileDto.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T04:21:53.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ComplaintMaster.cs",
+              "DocumentMoniker": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Domain\\Entities\\ComplaintMaster.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.Domain\\Entities\\ComplaintMaster.cs",
+              "ToolTip": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Domain\\Entities\\ComplaintMaster.cs",
+              "RelativeToolTip": "PGManagementSystem.Domain\\Entities\\ComplaintMaster.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T05:02:36.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ComplaintRepository.cs",
+              "DocumentMoniker": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Infrastructure\\Repositories\\ComplaintRepository.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.Infrastructure\\Repositories\\ComplaintRepository.cs",
+              "ToolTip": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Infrastructure\\Repositories\\ComplaintRepository.cs",
+              "RelativeToolTip": "PGManagementSystem.Infrastructure\\Repositories\\ComplaintRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T05:03:33.351Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "UpdateComplaintDto.cs",
+              "DocumentMoniker": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\Complaint\\UpdateComplaintDto.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\Complaint\\UpdateComplaintDto.cs",
+              "ToolTip": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\Complaint\\UpdateComplaintDto.cs",
+              "RelativeToolTip": "PGManagementSystem.Application\\DTOs\\Complaint\\UpdateComplaintDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T05:16:56.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IComplaintRepository.cs",
+              "DocumentMoniker": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Interfaces\\IComplaintRepository.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.Application\\Interfaces\\IComplaintRepository.cs",
+              "ToolTip": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Interfaces\\IComplaintRepository.cs",
+              "RelativeToolTip": "PGManagementSystem.Application\\Interfaces\\IComplaintRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T05:03:41.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Tenant.cs",
+              "DocumentMoniker": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Domain\\Entities\\Tenant.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.Domain\\Entities\\Tenant.cs",
+              "ToolTip": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Domain\\Entities\\Tenant.cs",
+              "RelativeToolTip": "PGManagementSystem.Domain\\Entities\\Tenant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T05:02:11.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "PGManagementSystem.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAADwv0QAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T04:26:59.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\appsettings.json",
+              "RelativeDocumentMoniker": "PGManagementSystem.API\\appsettings.json",
+              "ToolTip": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\appsettings.json",
+              "RelativeToolTip": "PGManagementSystem.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-15T04:31:11.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ExpenseRepository.cs",
+              "DocumentMoniker": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Infrastructure\\Repositories\\ExpenseRepository.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.Infrastructure\\Repositories\\ExpenseRepository.cs",
+              "ToolTip": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Infrastructure\\Repositories\\ExpenseRepository.cs",
+              "RelativeToolTip": "PGManagementSystem.Infrastructure\\Repositories\\ExpenseRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAawA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T03:52:38.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ExpensesController.cs",
+              "DocumentMoniker": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Controllers\\ExpensesController.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.API\\Controllers\\ExpensesController.cs",
+              "ToolTip": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Controllers\\ExpensesController.cs",
+              "RelativeToolTip": "PGManagementSystem.API\\Controllers\\ExpensesController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwBYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T03:56:14.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ExpenseService.cs",
+              "DocumentMoniker": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Services\\ExpenseService.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.Application\\Services\\ExpenseService.cs",
+              "ToolTip": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Services\\ExpenseService.cs",
+              "RelativeToolTip": "PGManagementSystem.Application\\Services\\ExpenseService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T03:55:42.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreateExpenseDto.cs",
+              "DocumentMoniker": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\Expense\\CreateExpenseDto.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\Expense\\CreateExpenseDto.cs",
+              "ToolTip": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\Expense\\CreateExpenseDto.cs",
+              "RelativeToolTip": "PGManagementSystem.Application\\DTOs\\Expense\\CreateExpenseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T03:55:07.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FlatMaster.cs",
+              "DocumentMoniker": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Domain\\Entities\\FlatMaster.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.Domain\\Entities\\FlatMaster.cs",
+              "ToolTip": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Domain\\Entities\\FlatMaster.cs",
+              "RelativeToolTip": "PGManagementSystem.Domain\\Entities\\FlatMaster.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAwwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T03:42:12.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FlatSummaryDto.cs",
+              "DocumentMoniker": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\FlatSummaryDto.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.Application\\DTOs\\FlatSummaryDto.cs",
+              "ToolTip": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\DTOs\\FlatSummaryDto.cs",
+              "RelativeToolTip": "PGManagementSystem.Application\\DTOs\\FlatSummaryDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T03:41:45.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "INoticeService.cs",
               "DocumentMoniker": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Interfaces\\INoticeService.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\Interfaces\\INoticeService.cs",
@@ -66,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 22,
               "Title": "NoticeRepository.cs",
               "DocumentMoniker": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Infrastructure\\Repositories\\NoticeRepository.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Infrastructure\\Repositories\\NoticeRepository.cs",
@@ -78,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 21,
               "Title": "NoticeService.cs",
               "DocumentMoniker": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Services\\NoticeService.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\Services\\NoticeService.cs",
@@ -90,7 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 20,
               "Title": "NoticesController.cs",
               "DocumentMoniker": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Controllers\\NoticesController.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.API\\Controllers\\NoticesController.cs",
@@ -102,7 +426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 25,
               "Title": "TenantService.cs",
               "DocumentMoniker": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Services\\TenantService.cs",
               "RelativeDocumentMoniker": "PGManagementSystem.Application\\Services\\TenantService.cs",
@@ -114,16 +438,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TenantController.cs",
-              "DocumentMoniker": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Controllers\\TenantController.cs",
-              "RelativeDocumentMoniker": "PGManagementSystem.API\\Controllers\\TenantController.cs",
-              "ToolTip": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.API\\Controllers\\TenantController.cs",
-              "RelativeToolTip": "PGManagementSystem.API\\Controllers\\TenantController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAYwBMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 24,
+              "Title": "INoticeRepository.cs",
+              "DocumentMoniker": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Interfaces\\INoticeRepository.cs",
+              "RelativeDocumentMoniker": "PGManagementSystem.Application\\Interfaces\\INoticeRepository.cs",
+              "ToolTip": "D:\\Github\\pg-app\\pg-app\\pg-ecosystem-api\\PGManagementSystem.Application\\Interfaces\\INoticeRepository.cs",
+              "RelativeToolTip": "PGManagementSystem.Application\\Interfaces\\INoticeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-13T15:25:45.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-13T16:41:12.766Z"
             }
           ]
         }

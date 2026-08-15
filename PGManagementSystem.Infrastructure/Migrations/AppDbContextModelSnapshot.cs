@@ -58,6 +58,152 @@ namespace PGManagementSystem.Infrastructure.Migrations
                     b.ToTable("BED_MST");
                 });
 
+            modelBuilder.Entity("PGManagementSystem.Domain.Entities.ComplaintMaster", b =>
+                {
+                    b.Property<Guid>("ComplaintId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("char(36)");
+
+                    b.Property<string>("AdminRemark")
+                        .HasMaxLength(500)
+                        .HasColumnType("varchar(500)");
+
+                    b.Property<string>("AttachmentName")
+                        .HasMaxLength(255)
+                        .HasColumnType("varchar(255)");
+
+                    b.Property<string>("AttachmentUri")
+                        .HasMaxLength(500)
+                        .HasColumnType("varchar(500)");
+
+                    b.Property<string>("Category")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("varchar(50)");
+
+                    b.Property<DateTime>("ComplaintDate")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(1000)
+                        .HasColumnType("varchar(1000)");
+
+                    b.Property<Guid>("FlatId")
+                        .HasColumnType("char(36)");
+
+                    b.Property<string>("Priority")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("varchar(20)");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("varchar(30)");
+
+                    b.Property<long>("TenantId")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("varchar(200)");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<Guid?>("UpdatedByUserId")
+                        .HasColumnType("char(36)");
+
+                    b.HasKey("ComplaintId");
+
+                    b.HasIndex("FlatId");
+
+                    b.HasIndex("TenantId");
+
+                    b.HasIndex("UpdatedByUserId");
+
+                    b.ToTable("COMPLAINT_MST");
+                });
+
+            modelBuilder.Entity("PGManagementSystem.Domain.Entities.ExpenseMaster", b =>
+                {
+                    b.Property<Guid>("ExpenseId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("char(36)");
+
+                    b.Property<decimal>("Amount")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("Category")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("varchar(50)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<Guid?>("FlatId")
+                        .HasColumnType("char(36)");
+
+                    b.Property<bool>("IsCommonExpense")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<string>("Month")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("varchar(20)");
+
+                    b.Property<string>("Notes")
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("PaidBy")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("varchar(150)");
+
+                    b.Property<string>("PaymentMode")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("varchar(50)");
+
+                    b.Property<string>("ReceiptName")
+                        .HasMaxLength(255)
+                        .HasColumnType("varchar(255)");
+
+                    b.Property<string>("ReceiptUri")
+                        .HasMaxLength(500)
+                        .HasColumnType("varchar(500)");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("varchar(50)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("varchar(200)");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("char(36)");
+
+                    b.HasKey("ExpenseId");
+
+                    b.HasIndex("FlatId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("EXPENSE_MST");
+                });
+
             modelBuilder.Entity("PGManagementSystem.Domain.Entities.FlatMaster", b =>
                 {
                     b.Property<Guid>("FlatId")
@@ -436,8 +582,19 @@ namespace PGManagementSystem.Infrastructure.Migrations
                     b.Property<Guid>("UserId")
                         .HasColumnType("char(36)");
 
+                    b.Property<string>("Address")
+                        .HasMaxLength(255)
+                        .HasColumnType("varchar(255)");
+
+                    b.Property<string>("City")
+                        .HasMaxLength(50)
+                        .HasColumnType("varchar(50)");
+
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime(6)");
+
+                    b.Property<Guid?>("CreatedBySuperAdminId")
+                        .HasColumnType("char(36)");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -456,6 +613,10 @@ namespace PGManagementSystem.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
+                    b.Property<string>("PgName")
+                        .HasMaxLength(150)
+                        .HasColumnType("varchar(150)");
+
                     b.Property<string>("Phone")
                         .IsRequired()
                         .HasMaxLength(15)
@@ -465,6 +626,8 @@ namespace PGManagementSystem.Infrastructure.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("UserId");
+
+                    b.HasIndex("CreatedBySuperAdminId");
 
                     b.HasIndex("Email")
                         .IsUnique();
@@ -534,6 +697,48 @@ namespace PGManagementSystem.Infrastructure.Migrations
                         .IsRequired();
 
                     b.Navigation("Zone");
+                });
+
+            modelBuilder.Entity("PGManagementSystem.Domain.Entities.ComplaintMaster", b =>
+                {
+                    b.HasOne("PGManagementSystem.Domain.Entities.FlatMaster", "Flat")
+                        .WithMany()
+                        .HasForeignKey("FlatId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("PGManagementSystem.Domain.Entities.TenantMaster", "Tenant")
+                        .WithMany()
+                        .HasForeignKey("TenantId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("PGManagementSystem.Domain.Entities.UserMaster", "UpdatedByAdmin")
+                        .WithMany()
+                        .HasForeignKey("UpdatedByUserId");
+
+                    b.Navigation("Flat");
+
+                    b.Navigation("Tenant");
+
+                    b.Navigation("UpdatedByAdmin");
+                });
+
+            modelBuilder.Entity("PGManagementSystem.Domain.Entities.ExpenseMaster", b =>
+                {
+                    b.HasOne("PGManagementSystem.Domain.Entities.FlatMaster", "Flat")
+                        .WithMany()
+                        .HasForeignKey("FlatId");
+
+                    b.HasOne("PGManagementSystem.Domain.Entities.UserMaster", "CreatedByUser")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("CreatedByUser");
+
+                    b.Navigation("Flat");
                 });
 
             modelBuilder.Entity("PGManagementSystem.Domain.Entities.FlatMaster", b =>
@@ -614,6 +819,11 @@ namespace PGManagementSystem.Infrastructure.Migrations
 
             modelBuilder.Entity("PGManagementSystem.Domain.Entities.UserMaster", b =>
                 {
+                    b.HasOne("PGManagementSystem.Domain.Entities.UserMaster", "SuperAdmin")
+                        .WithMany("SubUsers")
+                        .HasForeignKey("CreatedBySuperAdminId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
                     b.HasOne("PGManagementSystem.Domain.Entities.RoleMaster", "Role")
                         .WithMany("Users")
                         .HasForeignKey("RoleId")
@@ -621,6 +831,8 @@ namespace PGManagementSystem.Infrastructure.Migrations
                         .IsRequired();
 
                     b.Navigation("Role");
+
+                    b.Navigation("SuperAdmin");
                 });
 
             modelBuilder.Entity("PGManagementSystem.Domain.Entities.ZoneMaster", b =>
@@ -657,6 +869,8 @@ namespace PGManagementSystem.Infrastructure.Migrations
             modelBuilder.Entity("PGManagementSystem.Domain.Entities.UserMaster", b =>
                 {
                     b.Navigation("Flats");
+
+                    b.Navigation("SubUsers");
                 });
 
             modelBuilder.Entity("PGManagementSystem.Domain.Entities.ZoneMaster", b =>

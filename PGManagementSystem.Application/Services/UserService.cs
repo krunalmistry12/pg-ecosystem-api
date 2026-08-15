@@ -89,11 +89,15 @@ namespace PGManagementSystem.Application.Services
                 Name = u.FullName,
                 Email = u.Email,
                 RoleId = u.RoleId,
-                Mobile=u.Phone,
+                Mobile = u.Phone,
                 // Null checks for Role navigation property
                 RoleName = u.Role != null ? u.Role.RoleName : "N/A",
                 IsActive = u.IsActive,
-                CreatedAt = u.CreatedAt
+                CreatedAt = u.CreatedAt,
+
+                PgName = u.PgName,       
+                Address = u.Address,
+                City = u.City
             }).ToList();
         }
 
@@ -134,5 +138,39 @@ namespace PGManagementSystem.Application.Services
             await _repo.DeleteUser(user);
             _logger.LogInformation("User ID {UserId} deleted successfully.", id);
         }
+        public async Task<bool> UpdateProfileAsync(UpdateProfileDto dto)
+        {
+            // 1. Check if user exists
+            var user = await _repo.GetById(dto.UserId);
+            if (user == null)
+            {
+                return false; // User not found
+            }
+
+            // 2. Check Email Duplication for another user
+            if (await _repo.IsEmailExistsForOtherUserAsync(dto.Email, dto.UserId))
+            {
+                throw new InvalidOperationException("This Email is already registered with another account.");
+            }
+
+            // 3. Check Phone Duplication for another user (Since login uses phone)
+            if (await _repo.IsPhoneExistsForOtherUserAsync(dto.Phone, dto.UserId))
+            {
+                throw new InvalidOperationException("This Phone Number is already registered with another account.");
+            }
+
+            // 4. Update allowed specific profile fields only
+            user.FullName = dto.FullName;
+            user.Email = dto.Email;
+            user.Phone = dto.Phone;
+            user.PgName = dto.PgName;
+            user.Address = dto.Address;
+            user.City = dto.City;
+
+            // 5. Save via Repository
+            return await _repo.UpdateUserProfileAsync(user);
+        }
     }
+
+
 }

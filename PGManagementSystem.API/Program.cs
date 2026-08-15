@@ -114,6 +114,14 @@ builder.Services.AddHttpClient<IOtpService, OtpService>();
 //Notice
 builder.Services.AddScoped<INoticeRepository, NoticeRepository>();
 builder.Services.AddScoped<INoticeService, NoticeService>();
+
+//ExpenseService
+builder.Services.AddScoped<IExpenseRepository, ExpenseRepository>();
+builder.Services.AddScoped<ExpenseService>();
+
+//
+builder.Services.AddScoped<IComplaintRepository, ComplaintRepository>();
+builder.Services.AddScoped<ComplaintService>();
 // 6. JWT Authentication Configuration
 var jwtSecret = builder.Configuration["Jwt:Key"] ?? "THIS_IS_MY_VERY_SECURE_SECRET_KEY_FOR_JWT_TOKEN_GENERATION_123456";
 

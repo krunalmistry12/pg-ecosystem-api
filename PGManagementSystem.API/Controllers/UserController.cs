@@ -104,5 +104,59 @@ namespace PGManagementSystem.API.Controllers
                 return BadRequest(new { success = false, message = ex.Message });
             }
         }
+        [HttpPut("update-profile")]
+        public async Task<IActionResult> UpdateProfile([FromBody] UpdateProfileDto dto)
+        {
+            // 1. Model Validation Check (Required fields, Email format, Phone length etc.)
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(new
+                {
+                    success = false,
+                    message = "Validation failed",
+                    errors = ModelState
+                });
+            }
+
+            try
+            {
+                // 2. Service Call
+                var isUpdated = await _userService.UpdateProfileAsync(dto);
+
+                if (!isUpdated)
+                {
+                    return NotFound(new
+                    {
+                        success = false,
+                        message = "User not found."
+                    });
+                }
+
+                return Ok(new
+                {
+                    success = true,
+                    message = "Profile updated successfully."
+                });
+            }
+            catch (InvalidOperationException ex)
+            {
+                // Duplication error (Email or Phone already exists for another user)
+                return BadRequest(new
+                {
+                    success = false,
+                    message = ex.Message
+                });
+            }
+            catch (Exception ex)
+            {
+                // Unexpected server error
+                return StatusCode(500, new
+                {
+                    success = false,
+                    message = "An internal server error occurred.",
+                    error = ex.Message
+                });
+            }
+        }
     }
 }

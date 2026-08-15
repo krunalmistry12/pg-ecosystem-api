@@ -13,4 +13,8 @@ public interface IUserRepository
     Task<UserMaster?> GetByName(string email);
     Task<bool> IsEmailExistsAsync(string email);
     Task<bool> IsPhoneExistsAsync(string phone);
+
+    Task<bool> IsEmailExistsForOtherUserAsync(string email, Guid currentUserId);
+    Task<bool> IsPhoneExistsForOtherUserAsync(string phone, Guid currentUserId);
+    Task<bool> UpdateUserProfileAsync(UserMaster user); // Repository level profile update
 }
