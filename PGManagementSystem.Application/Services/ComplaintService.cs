@@ -93,7 +93,10 @@ namespace PGManagementSystem.Application.Services
             {
                 ComplaintId = c.ComplaintId,
                 TenantId = c.TenantId,
-                TenantName = c.Tenant?.Name, // Tenant ka naam agar nav property load ho
+                TenantName = c.Tenant?.Name,
+                Phone=c.Tenant?.Phone,
+                Room=c.Tenant?.Flat?.FlatNumber,
+                pgName = c.Tenant?.Flat?.ApartmentName,
                 Title = c.Title,
                 Description = c.Description,
                 Status = c.Status.ToString(),
