@@ -147,10 +147,26 @@ namespace PGManagementSystem.Infrastructure.Repositories
                                 .Where(u => u.UserId == userId)
                                 .Select(u => u.FullName)
                                 .FirstOrDefaultAsync() ?? "";
-
+            var ownerDetails = await _context.UserMasters
+                            .Where(u => u.UserId == userId)
+                            .Select(u => new
+                            {
+                                u.FullName,
+                                u.Email,
+                                u.Phone,
+                                u.PgName,
+                            u.City,
+                            u.Address
+                        })
+                    .FirstOrDefaultAsync();
             return new DashboardResponseDto
             {
                 OwnerName = ownerName,
+                Email = ownerDetails?.Email ?? "",
+                Phone = ownerDetails?.Phone ?? "",
+                PgName = ownerDetails?.PgName ?? "",
+                City = ownerDetails?.City ?? "",
+                Address = ownerDetails?.Address ?? "",
                 RevenueOverview = new RevenueOverviewDto
                 {
                     MonthName = monthName,
